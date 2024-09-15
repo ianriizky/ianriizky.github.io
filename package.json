@@ -1,9 +1,0 @@
-{
-    "dependencies": {
-        "fs": "^0.0.1-security",
-        "googleapis": "^118.0.0",
-        "isomorphic-fetch": "^3.0.0",
-        "node-fetch": "^3.3.1"
-    }
-}
-  
