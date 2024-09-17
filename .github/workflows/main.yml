@@ -1,5 +1,5 @@
 # https://github.com/actions/starter-workflows/blob/main/pages/nextjs.yml
-name: CD
+name: Build & Deploy
 
 on:
   push:
