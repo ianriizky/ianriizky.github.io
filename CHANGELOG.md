@@ -2,7 +2,11 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.1.4...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.1.5...develop)
+
+## [0.1.5 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.5)
+
+- ci: change github actions workflow name by [@ianriizky](https://github.com/ianriizky) in [#646e60d](https://github.com/ianriizky/ianriizky.github.io/commit/646e60db69f09942944f595b4c3ec199952db2fb).
 
 ## [0.1.4 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.4)
 
