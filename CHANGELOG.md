@@ -2,7 +2,11 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.1.2...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.1.3...develop)
+
+## [0.1.3 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.3)
+
+- fix: enable pnpm on github actions by [@ianriizky](https://github.com/ianriizky) in [#567e480](https://github.com/ianriizky/ianriizky.github.io/commit/567e480e104c3ad35b1697232ce6176e42bcea91).
 
 ## [0.1.2 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.2)
 
