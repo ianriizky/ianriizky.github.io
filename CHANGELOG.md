@@ -2,7 +2,11 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.1.0...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.1.1...develop)
+
+## [0.1.1 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.1)
+
+- fix: set default branch on github actions cd workflow by [@ianriizky](https://github.com/ianriizky) in [#0eba04d](https://github.com/ianriizky/ianriizky.github.io/commit/0eba04d456a484a1c1660df8b3c7ddaae0bd8354).
 
 ## [0.1.0 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.0)
 
