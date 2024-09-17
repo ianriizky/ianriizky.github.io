@@ -6,6 +6,8 @@ All notable changes to `ianriizky Portofolio` will be documented in this file.
 
 ## [0.2.0 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.2.0)
 
+- docs: change "Credits" section name into "Author" by [@ianriizky](https://github.com/ianriizky) in [#3f76144](https://github.com/ianriizky/ianriizky.github.io/commit/3f761449ede44f1e063e47b1619e3f4383cdcbbc).
+
 ## [0.1.5 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.5)
 
 - ci: change github actions workflow name by [@ianriizky](https://github.com/ianriizky) in [#646e60d](https://github.com/ianriizky/ianriizky.github.io/commit/646e60db69f09942944f595b4c3ec199952db2fb).
