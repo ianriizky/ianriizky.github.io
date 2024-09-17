@@ -37,6 +37,6 @@ You can read the changelog [here](CHANGELOG.md).
 
 You can read the license [here](LICENSE.md).
 
-## Credits
+## Author
 
 - Septianata Rizky Pratama [@ianriizky](https://github.com/ianriizky).
