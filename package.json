@@ -18,11 +18,13 @@
     "url": "git+https://github.com/ianriizky/ianriizky.github.io.git"
   },
   "keywords": [
+    "ianriizky",
     "Node.js",
     "React",
     "Next.js",
-    "GitHub",
-    "Pages"
+    "Tailwind",
+    "Markdown",
+    "GitHub Pages"
   ],
   "author": {
     "name": "Septianata Rizky Pratama",
