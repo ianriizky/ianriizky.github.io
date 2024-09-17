@@ -2,7 +2,12 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.1.3...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.1.4...develop)
+
+## [0.1.4 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.4)
+
+- ci: rename github actions workflow file name and run upload artifact step only on "main" branch by [@ianriizky](https://github.com/ianriizky) in [#732ff7d](https://github.com/ianriizky/ianriizky.github.io/commit/732ff7d781856f915c193a20be06e778fb3a7f1e).
+- docs: add license and github action badge on readme by [@ianriizky](https://github.com/ianriizky) in [#64f38e9](https://github.com/ianriizky/ianriizky.github.io/commit/64f38e98de1dcde46e91724b9acba8672ff56487).
 
 ## [0.1.3 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.3)
 
