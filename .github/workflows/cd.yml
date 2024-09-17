@@ -3,7 +3,9 @@ name: CD
 
 on:
   push:
-    branches: [$default-branch]
+    branches:
+      - main
+      - develop
 
   workflow_dispatch:
 
