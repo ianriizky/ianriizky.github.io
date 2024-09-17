@@ -2,7 +2,9 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.1.5...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.2.0...develop)
+
+## [0.2.0 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.2.0)
 
 ## [0.1.5 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.5)
 
