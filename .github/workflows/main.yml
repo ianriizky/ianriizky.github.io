@@ -64,6 +64,7 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
         with:
           path: ./out
 
