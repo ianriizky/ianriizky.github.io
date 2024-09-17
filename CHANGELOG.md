@@ -2,7 +2,12 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.1.1...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.1.2...develop)
+
+## [0.1.2 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.2)
+
+- fix: set default branch on github actions cd workflow using "main" and "develop" branch by [@ianriizky](https://github.com/ianriizky) in [#8e25473](https://github.com/ianriizky/ianriizky.github.io/commit/8e25473903b43ff8959c76d5fdfb5fced62fa7d3).
+- feat: set rule to run github actions deploy job when current branch is "main" by [@ianriizky](https://github.com/ianriizky) in [#e109433](https://github.com/ianriizky/ianriizky.github.io/commit/e109433e45d377cf4394395de65d0710dcadbaeb).
 
 ## [0.1.1 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.1)
 
