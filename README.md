@@ -1,5 +1,8 @@
 # ianriizky Portofolio
 
+[![License](https://badgen.net/github/license/ianriizky/ianriizky.github.io "License")](LICENSE.md)
+[![Build & Deploy](https://github.com/ianriizky/ianriizky.github.io/actions/workflows/main.yml/badge.svg "Build & Deploy")](https://github.com/ianriizky/ianriizky.github.io/actions/workflows/main.yml)
+
 Portofolio page of ianriizky using using [Next.js](https://nextjs.org).
 
 ## Requirement
