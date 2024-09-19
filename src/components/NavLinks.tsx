@@ -10,6 +10,7 @@ export default function NavLinks() {
         <Link
           key={navLink.title}
           href={navLink.href}
+          target={navLink.target}
           className="block font-medium text-gray-900 hover:text-primary-500 dark:text-gray-100 dark:hover:text-primary-400"
         >
           <span className="flex">
