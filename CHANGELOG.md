@@ -4,9 +4,10 @@ All notable changes to `ianriizky Portofolio` will be documented in this file.
 
 ## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.2.0...develop)
 
-## [0.2.0 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.2.0)
+## [0.2.0 (2024-09-18)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.2.0)
 
 - docs: change "Credits" section name into "Author" by [@ianriizky](https://github.com/ianriizky) in [#3f76144](https://github.com/ianriizky/ianriizky.github.io/commit/3f761449ede44f1e063e47b1619e3f4383cdcbbc).
+- docs: update keyword on package.json by [@ianriizky](https://github.com/ianriizky) in [#9dc7b62](https://github.com/ianriizky/ianriizky.github.io/commit/9dc7b62d8f2c593e65a779a34190ed9e73f95663).
 
 ## [0.1.5 (2024-09-17)](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.5)
 
