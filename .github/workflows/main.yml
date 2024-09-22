@@ -20,7 +20,7 @@ concurrency:
 
 env:
   NODE_VERSION: 20.17.0
-  PNPM_VERSION: 9.10.0
+  PNPM_VERSION: 9.11.0
 
 jobs:
   build:

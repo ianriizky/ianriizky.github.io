@@ -17,7 +17,7 @@ This blog was developed with:
 ## Requirement
 
 - [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white "Node.js")](https://nodejs.org) ^20.17.0
-- [![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white "pnpm")](https://pnpm.io) ^9.10.0
+- [![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white "pnpm")](https://pnpm.io) ^9.11.0
 
 ## Installation
 
