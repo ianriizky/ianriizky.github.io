@@ -12,7 +12,10 @@ export const metadata: Metadata = {
   title: site.title,
   description: site.description,
   applicationName: site.applicationName,
-  authors: site.author,
+  authors: {
+    name: site.author.name,
+    url: site.author.url,
+  },
   keywords: site.keywords,
 };
 

@@ -3,10 +3,14 @@ const site = {
   description: "Portofolio page of ianriizky using Next.js.",
   applicationName: "ianriizky",
   headerTitle: "ianriizky",
-  logo: "IR",
   author: {
     name: "Septianata Rizky Pratama",
     url: "https://ianriizky.github.io",
+    role: "Backend Developer",
+    about:
+      "I am a backend developer with over 5 years of experience, proficient in Java, PHP, and JavaScript. " +
+      "Expert in developing web applications and REST APIs using Laravel, Express.js, and Next.js. " +
+      "Really excited to learn new things and enjoy collaborating and working together as a team.",
   },
   social: {
     email: "ian.rizkypratama@gmail.com",

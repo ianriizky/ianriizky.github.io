@@ -16,7 +16,7 @@ const Header = () => {
             <div className="mr-3">
               <Image
                 src={Icon}
-                alt={site.logo}
+                alt={site.headerTitle}
                 className="h-12 w-12 rounded-full"
               />
             </div>

@@ -1,9 +1,7 @@
-import BrandLink from "@/components/icons/BrandLink";
-import SimpleIconsLink from "@/components/icons/SimpleIconsLink";
-import Brand from "@/components/icons/brand";
-import SimpleIcons from "@/components/icons/simpleicons";
 import site from "@/data/site";
 import Link from "next/link";
+import { SiGithub, SiLinkedin, SiNextdotjs } from "react-icons/si";
+import TypeScript from "./icons/TypeScript";
 
 export default function Footer() {
   return (
@@ -15,35 +13,44 @@ export default function Footer() {
           </span>
 
           <div className="flex space-x-1.5">
-            <BrandLink component={Brand.Nextjs} href="https://nextjs.org" />
-            <BrandLink
-              component={Brand.TypeScript}
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://nextjs.org"
+            >
+              <span className="sr-only">nextjs</span>
+              <SiNextdotjs className="h-5 w-5" fill="currentColor" />
+            </Link>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://www.typescriptlang.org"
-            />
-            <BrandLink
-              component={Brand.TailwindCSS}
-              href="https://tailwindcss.com"
-            />
+            >
+              <span className="sr-only">typescript</span>
+              <TypeScript className="h-5 w-5" fill="currentColor" />
+            </Link>
           </div>
         </div>
 
         <div className="flex space-x-4 md:place-content-center">
-          <SimpleIconsLink
-            component={SimpleIcons.Mail}
-            href={`mailto:${site.social.email}`}
-          />
-          <SimpleIconsLink
-            component={SimpleIcons.GitHub}
+          <Link
+            className="text-sm text-gray-500 transition hover:text-gray-600"
+            target="_blank"
+            rel="noopener noreferrer"
             href={site.social.github}
-          />
-          <SimpleIconsLink
-            component={SimpleIcons.LinkedIn}
+          >
+            <span className="sr-only">github</span>
+            <SiGithub className="h-6 w-6 fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400" />
+          </Link>
+          <Link
+            className="text-sm text-gray-500 transition hover:text-gray-600"
+            target="_blank"
+            rel="noopener noreferrer"
             href={site.social.linkedin}
-          />
-          <SimpleIconsLink
-            component={SimpleIcons.Dev}
-            href={site.social.devto}
-          />
+          >
+            <span className="sr-only">linkedin</span>
+            <SiLinkedin className="h-6 w-6 fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400" />
+          </Link>
         </div>
 
         <div className="flex space-x-2 text-gray-500 dark:text-gray-400 md:place-self-end">
@@ -56,6 +63,8 @@ export default function Footer() {
       <div className="mb-8 flex justify-center text-center text-sm">
         <Link
           href={site.sourceCode}
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-gray-500 underline underline-offset-4 dark:text-gray-400"
         >
           <span>View source</span>
