@@ -4,6 +4,7 @@ import OptionalLink from "@/components/OptionalLink";
 import skills, { type Skill } from "@/data/skills";
 import { motion } from "framer-motion";
 import { useTheme } from "next-themes";
+import { RoughNotation } from "react-rough-notation";
 import colors from "tailwindcss/colors";
 
 function hexToRgb(hex: string) {
@@ -73,7 +74,19 @@ export default function Skill() {
 
   return (
     <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-      <h2 className="title-font text-3xl font-bold">My Skill</h2>
+      <h2 className="title-font text-3xl font-bold">
+        <RoughNotation
+          type="highlight"
+          show={true}
+          color={
+            colors.emerald[(resolvedTheme || "dark") === "dark" ? 500 : 300]
+          }
+          animationDelay={2100}
+          animationDuration={1200}
+        >
+          My Skill
+        </RoughNotation>
+      </h2>
       {skills.map((skill) => (
         <motion.div
           key={skill.name}
