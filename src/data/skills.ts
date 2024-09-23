@@ -20,6 +20,11 @@ const skills: Array<SkillWithChildren> = [
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     children: [
       {
+        name: "TypeScript",
+        logo: Si.SiTypescript,
+        url: "https://www.typescriptlang.org",
+      },
+      {
         name: "Node.js",
         logo: Si.SiNodedotjs,
         url: "https://nodejs.org/en",
