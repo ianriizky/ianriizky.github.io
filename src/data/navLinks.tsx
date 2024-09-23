@@ -1,5 +1,5 @@
-import ArrowUpRight from "@/components/icons/ArrowUpRight";
 import Link from "next/link";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 export type NavLink = Parameters<typeof Link>[0] & {
   title: string;
@@ -11,7 +11,7 @@ const navLinks: Array<NavLink> = [
   {
     href: "https://ngodingbang.my.id",
     title: "Blog",
-    icon: <ArrowUpRight className="h-5" />,
+    icon: <FaArrowUpRightFromSquare className="h-5" />,
     target: "_blank",
   },
   { href: "/resume", title: "Resume" },

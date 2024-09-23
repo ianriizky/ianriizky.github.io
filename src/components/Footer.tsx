@@ -1,7 +1,7 @@
+import TypeScript from "@/components/icons/TypeScript";
 import site from "@/data/site";
 import Link from "next/link";
 import { SiGithub, SiLinkedin, SiNextdotjs } from "react-icons/si";
-import TypeScript from "./icons/TypeScript";
 
 export default function Footer() {
   return (

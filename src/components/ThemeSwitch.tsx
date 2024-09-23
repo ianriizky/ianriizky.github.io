@@ -1,10 +1,9 @@
 "use client";
 
-import BlankIcon from "@/components/icons/Blank";
-import MoonIcon from "@/components/icons/Moon";
-import SunIcon from "@/components/icons/Sun";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import { AiOutlineLoading } from "react-icons/ai";
+import { MdDarkMode, MdLightMode } from "react-icons/md";
 
 export default function ThemeSwitch() {
   const [mounted, setMounted] = useState<boolean>(false);
@@ -25,22 +24,15 @@ export default function ThemeSwitch() {
         )
       }
     >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        className="text-gray-900 dark:text-gray-100"
-      >
-        {mounted ? (
-          theme === "dark" || resolvedTheme === "dark" ? (
-            <MoonIcon />
-          ) : (
-            <SunIcon />
-          )
+      {mounted ? (
+        theme === "dark" || resolvedTheme === "dark" ? (
+          <MdDarkMode className="h-6 w-6" />
         ) : (
-          <BlankIcon />
-        )}
-      </svg>
+          <MdLightMode className="h-6 w-6" />
+        )
+      ) : (
+        <AiOutlineLoading className="h-6 w-6 animate-spin" />
+      )}
     </button>
   );
 }
