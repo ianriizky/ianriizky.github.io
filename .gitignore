@@ -15,6 +15,10 @@
 
 # production
 /build
+/public/images/*
+!/public/images/.gitkeep
+/public/nextImageExportOptimizer/*
+!/public/nextImageExportOptimizer/.gitkeep
 
 # misc
 .DS_Store

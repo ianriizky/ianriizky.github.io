@@ -1,5 +1,6 @@
+import Me from "@/app/me.jpg";
 import site from "@/data/site";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import { SiDevdotto, SiGithub } from "react-icons/si";
 import { TbMailFilled } from "react-icons/tb";
@@ -16,8 +17,8 @@ export default function Page() {
       <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
         <div className="flex flex-row items-center justify-center space-x-2 pt-8 xl:flex-col">
           <div className="pr-8 xl:pr-0">
-            <Image
-              src="./me.jpg"
+            <ExportedImage
+              src={Me}
               alt="avatar"
               width={192}
               height={192}

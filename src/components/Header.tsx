@@ -4,7 +4,7 @@ import NavLinks from "@/components/NavLinks";
 import ThemeSwitch from "@/components/ThemeSwitch";
 import OpenToWorkBadge from "@/components/ui/OpenToWorkBadge";
 import site from "@/data/site";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
         <Link href="/" aria-label={site.headerTitle}>
           <div className="flex items-center justify-between">
             <div className="mr-3">
-              <Image
+              <ExportedImage
                 src={Icon}
                 alt={site.headerTitle}
                 className="h-12 w-12 rounded-full"
