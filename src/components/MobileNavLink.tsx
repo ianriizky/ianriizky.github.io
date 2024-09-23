@@ -12,7 +12,7 @@ import { Fragment, useState } from "react";
 import { IoCloseOutline } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
 
-export default function MobileNav() {
+export default function MobileNavLink() {
   const [navShow, setNavShow] = useState<boolean>(false);
 
   const onToggleNav = () => {

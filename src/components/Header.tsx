@@ -1,13 +1,13 @@
 import Icon from "@/app/icon.png";
-import MobileNavLinks from "@/components/MobileNavLinks";
-import NavLinks from "@/components/NavLinks";
+import MobileNavLink from "@/components/MobileNavLink";
+import NavLink from "@/components/NavLink";
 import ThemeSwitch from "@/components/ThemeSwitch";
 import OpenToWorkBadge from "@/components/ui/OpenToWorkBadge";
 import site from "@/data/site";
 import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 
-const Header = () => {
+export default function Header() {
   return (
     <header className="relative flex items-center justify-between bg-white px-4 py-10 dark:bg-gray-950 sm:px-0">
       <div className="align-center flex flex-row items-center">
@@ -30,12 +30,10 @@ const Header = () => {
       </div>
 
       <div className="flex items-center space-x-4 leading-5 sm:space-x-6">
-        <NavLinks />
+        <NavLink />
         <ThemeSwitch />
-        <MobileNavLinks />
+        <MobileNavLink />
       </div>
     </header>
   );
-};
-
-export default Header;
+}
