@@ -69,12 +69,11 @@ export default function MobileNav() {
                     key={navLink.title}
                     href={navLink.href}
                     target={navLink.target}
-                    className="mb-4 py-2 pr-4 text-2xl font-medium tracking-widest text-gray-900 outline outline-0 hover:text-primary-500 dark:text-gray-100 dark:hover:text-primary-400"
+                    className="mb-4 flex items-center space-x-1 py-2 pr-4 text-2xl font-medium tracking-widest text-gray-900 outline outline-0 hover:text-primary-500 dark:text-gray-100 dark:hover:text-primary-400"
                     onClick={onToggleNav}
                   >
-                    <span className="flex">
-                      {navLink.title} {navLink?.icon && navLink.icon}
-                    </span>
+                    <span>{navLink.title}</span>
+                    {navLink?.icon && navLink.icon}
                   </Link>
                 ))}
               </nav>
