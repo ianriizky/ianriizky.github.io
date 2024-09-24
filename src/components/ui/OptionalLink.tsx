@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function OptionalLink(
-  props: Partial<Parameters<typeof Link>[0]>,
+  props: Readonly<Partial<Parameters<typeof Link>[0]>>,
 ) {
   if (!props.href) {
     return <>{props.children}</>;
