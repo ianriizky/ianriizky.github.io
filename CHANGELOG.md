@@ -2,7 +2,15 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.2.1...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.3.0...develop)
+
+## [0.3.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.3.0) - 2024-09-24
+
+- docs: remove markdown badge at developed section on readme by [@ianriizky](https://github.com/ianriizky) in [#c8ee1c2](https://github.com/ianriizky/ianriizky.github.io/commit/c8ee1c21f0ecb8703fddf6c4efe161a8d7edf77d).
+- feat: add All Projects button link to projects page on homepage by [@ianriizky](https://github.com/ianriizky) in [#725471b](https://github.com/ianriizky/ianriizky.github.io/commit/725471bf3f01a4260cc8de94c4a61b1db333fab6).
+- chore: change link of blog to https://ngodingbang.my.id/en by [@ianriizky](https://github.com/ianriizky) in [#2a167d2](https://github.com/ianriizky/ianriizky.github.io/commit/2a167d2c70436ec73e8672a861ec062814749a1d).
+- feat: using data from site hero section content by [@ianriizky](https://github.com/ianriizky) in [#dcc3360](https://github.com/ianriizky/ianriizky.github.io/commit/dcc3360af6fc94b97d2447c152fd2aca3c0967ab).
+- chore: change image border radius, title, and description style by [@ianriizky](https://github.com/ianriizky) in [#5d77096](https://github.com/ianriizky/ianriizky.github.io/commit/5d770961e97851c0ab4cc2926026f2c41e3e1a4e).
 
 ## [0.2.1](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.2.1) - 2024-09-24
 

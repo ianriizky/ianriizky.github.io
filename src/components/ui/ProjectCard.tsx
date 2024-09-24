@@ -17,16 +17,16 @@ export default function ProjectCard(
           width={1200}
           height={630}
           placeholder="blur"
-          className="placeholder object-cover backdrop-blur-xl transition-all duration-300 lg:group-hover:scale-110"
+          className="placeholder rounded-lg object-cover backdrop-blur-xl transition-all duration-300 lg:group-hover:scale-110"
         />
       </div>
 
       <div className="flex flex-col justify-start gap-3">
-        <h1 className="font-bold capitalize dark:text-neutral-200">
+        <h1 className="font-bold capitalize dark:text-neutral-100">
           {props.title}
         </h1>
 
-        <p className="truncate-2 text-sm leading-6 dark:text-neutral-400">
+        <p className="truncate-2 text-sm leading-6 dark:text-neutral-300">
           {props.description}
         </p>
 
