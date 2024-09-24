@@ -26,6 +26,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      APP_URL: ${{ secrets.APP_URL }}
+      NEXT_PUBLIC_GOOGLE_ANALYTICS_ID: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
