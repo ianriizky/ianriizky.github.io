@@ -5,8 +5,10 @@ const site = {
   headerTitle: "ianriizky",
   author: {
     name: "Septianata Rizky Pratama",
+    nickname: "Ian",
     url: "https://ianriizky.github.io",
     role: "Backend Developer",
+    role_rough_notation: ["backend", "developer"],
     about:
       "I am a backend developer with over 5 years of experience, proficient in Java, PHP, and JavaScript. " +
       "Expert in developing web applications and REST APIs using Laravel, Express.js, and Next.js. " +

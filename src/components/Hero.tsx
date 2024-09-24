@@ -6,8 +6,9 @@ export default function Hero() {
   return (
     <>
       <h1 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
-        Hello, I&#39;m {site.headerTitle}
-        <br />I craft{" "}
+        Hi, my name is {site.author.nickname}.
+        <br />
+        I&#39;m a{" "}
         <RoughNotation
           type="circle"
           show={true}
@@ -15,9 +16,8 @@ export default function Hero() {
           animationDelay={1400}
           animationDuration={1200}
         >
-          end-to-end{" "}
-        </RoughNotation>
-        <br className="xl:hidden" />
+          {site.author.role_rough_notation[0]}
+        </RoughNotation>{" "}
         <RoughNotation
           type="underline"
           show={true}
@@ -25,9 +25,9 @@ export default function Hero() {
           animationDelay={1700}
           animationDuration={1200}
         >
-          {" "}
-          web platforms.{" "}
+          {site.author.role_rough_notation[1]}
         </RoughNotation>
+        .
       </h1>
 
       <p className="text-lg leading-7 text-gray-500 dark:text-gray-400"></p>
