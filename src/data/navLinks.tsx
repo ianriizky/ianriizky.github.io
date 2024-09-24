@@ -9,7 +9,7 @@ export type NavLink = Parameters<typeof Link>[0] & {
 const navLinks: Array<NavLink> = [
   { href: "/", title: "Home" },
   {
-    href: "https://ngodingbang.my.id",
+    href: "https://ngodingbang.my.id/en",
     title: "Blog",
     icon: <FaArrowUpRightFromSquare className="h-5" />,
     target: "_blank",
