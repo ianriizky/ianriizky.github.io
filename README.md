@@ -12,7 +12,6 @@ This blog was developed with:
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB "React")](https://react.dev)
 [![Next.js](https://img.shields.io/badge/nextjs-000000?style=for-the-badge&logo=next.js&logoColor=white "Next.js")](https://nextjs.org)
 [![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white "Tailwind")](https://tailwindcss.com)
-[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white "Markdown")](https://www.markdownguide.org)
 
 ## Requirement
 
