@@ -2,7 +2,11 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.2.0...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.2.1...develop)
+
+## [0.2.1](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.2.1) - 2024-09-24
+
+- ci: add secrets env to github actions script by [@ianriizky](https://github.com/ianriizky) in [#c46cf01](https://github.com/ianriizky/ianriizky.github.io/commit/c46cf019885c0409a8e8cd8168bf2907f9af2e52).
 
 ## [0.2.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.2.0) - 2024-09-24
 
