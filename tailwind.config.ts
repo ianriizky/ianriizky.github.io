@@ -23,6 +23,7 @@ const config: Config = {
       },
       colors: {
         primary: colors.emerald,
+        gray: colors.gray,
       },
       zIndex: {
         60: "60",
