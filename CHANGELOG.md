@@ -4,10 +4,31 @@ All notable changes to `ianriizky Portofolio` will be documented in this file.
 
 ## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.2.0...develop)
 
-## [0.2.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.2.0) - 2024-09-20
+## [0.2.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.2.0) - 2024-09-24
 
 - docs: change "Credits" section name into "Author" by [@ianriizky](https://github.com/ianriizky) in [#3f76144](https://github.com/ianriizky/ianriizky.github.io/commit/3f761449ede44f1e063e47b1619e3f4383cdcbbc).
 - docs: update keyword on package.json by [@ianriizky](https://github.com/ianriizky) in [#9dc7b62](https://github.com/ianriizky/ianriizky.github.io/commit/9dc7b62d8f2c593e65a779a34190ed9e73f95663).
+- feat: finish layouting using tailwind-nextjs-starter-blog template by [@ianriizky](https://github.com/ianriizky) in [#8ddbf69](https://github.com/ianriizky/ianriizky.github.io/commit/8ddbf69dd706413c163a80cdadaa76f82b0724eb).
+- feat: enable all of html a props on navLinks data by [@ianriizky](https://github.com/ianriizky) in [#d136931](https://github.com/ianriizky/ianriizky.github.io/commit/d136931855acbb5adc0ef005f70a8613ff0fb00a).
+- feat: change theme switch component from menu into button by [@ianriizky](https://github.com/ianriizky) in [#ae1569b](https://github.com/ianriizky/ianriizky.github.io/commit/ae1569ba2165a3f0c8d1922dfad4f9394e9bed48).
+- docs: change tag version date format on changelog by [@ianriizky](https://github.com/ianriizky) in [#c4b6157](https://github.com/ianriizky/ianriizky.github.io/commit/c4b615744f865953745c90572d8a766c5cd37c44).
+- build: bump pnpm version into 9.11.0 by [@ianriizky](https://github.com/ianriizky) in [#1ef7297](https://github.com/ianriizky/ianriizky.github.io/commit/1ef72973f4706e68430f155852f5885241b64b26).
+- feat: finish resume and about page with react-icons by [@ianriizky](https://github.com/ianriizky) in [#707ff4d](https://github.com/ianriizky/ianriizky.github.io/commit/707ff4dd342f27fa0cc0ab6c4bdb14634297102d).
+- chore: add "tomoki1207.pdf" on vscode extension list by [@ianriizky](https://github.com/ianriizky) in [#2c7515b](https://github.com/ianriizky/ianriizky.github.io/commit/2c7515be29e3da8db8ecad4fb010c23a2e28816f).
+- feat: add progress bar component using nextjs-toploader libary on main layout by [@ianriizky](https://github.com/ianriizky) in [#af87117](https://github.com/ianriizky/ianriizky.github.io/commit/af87117e1c6b5bebdd3d462a825715110754084a).
+- feat: use next-image-export-optimizer library to handle image optimization on static export by [@ianriizky](https://github.com/ianriizky) in [#88c0fd4](https://github.com/ianriizky/ianriizky.github.io/commit/88c0fd43adbff7778b7308afa80c6d00ca4e3fbd).
+- chore: change custom icon component with react-icon by [@ianriizky](https://github.com/ianriizky) in [#7eb11b8](https://github.com/ianriizky/ianriizky.github.io/commit/7eb11b80998f8e163bff274ae55f4705ada09370).
+- fix: using flex to styling nav link and and nav icon in one line by [@ianriizky](https://github.com/ianriizky) in [#afa1077](https://github.com/ianriizky/ianriizky.github.io/commit/afa107764ff6cc5c92c03607a25a4792f2d9f062).
+- feat: finish hero and skill section on homepage by [@ianriizky](https://github.com/ianriizky) in [#a81040b](https://github.com/ianriizky/ianriizky.github.io/commit/a81040b39ba3e57ae1ffc6bde1a665c123982e06).
+- refactor: change naming convention on all components by [@ianriizky](https://github.com/ianriizky) in [#f03dc5d](https://github.com/ianriizky/ianriizky.github.io/commit/f03dc5df68898f71b6b4f7eb9a854b0606539690).
+- chore: change default env for NODE_ENV into production by [@ianriizky](https://github.com/ianriizky) in [#e906f0e](https://github.com/ianriizky/ianriizky.github.io/commit/e906f0e167d2f6452c1c7cffd1fde9029e008869).
+- chore: add typescript on skills list data by [@ianriizky](https://github.com/ianriizky) in [#5f270bc](https://github.com/ianriizky/ianriizky.github.io/commit/5f270bc0bdcdeae8fa314c42a050cb241717b1fa).
+- feat: add rough notation highlight at h2 section on skill component by [@ianriizky](https://github.com/ianriizky) in [#14a4a13](https://github.com/ianriizky/ianriizky.github.io/commit/14a4a13fc583afafe01758f1cb78b6430eac05c0).
+- chore: add custom color gray on tailwind config by [@ianriizky](https://github.com/ianriizky) in [#01e1550](https://github.com/ianriizky/ianriizky.github.io/commit/01e15507fecdd286cdb53b0ff193f8e9c8c806ad).
+- chore: change background color of body on dark mode by [@ianriizky](https://github.com/ianriizky) in [#63456e7](https://github.com/ianriizky/ianriizky.github.io/commit/63456e7ea0a6648c5b19fca7fecc6b2ef9a5a309).
+- refactor: code of header, hero, and skill component by [@ianriizky](https://github.com/ianriizky) in [#4dce35a](https://github.com/ianriizky/ianriizky.github.io/commit/4dce35ad642b44f9326bd273cd9dc52129d69806).
+- chore: change background color of mobile nav link on dark mode by [@ianriizky](https://github.com/ianriizky) in [#fe86e32](https://github.com/ianriizky/ianriizky.github.io/commit/fe86e324fdd802004a8f6a64a64c2e58fbf650e4).
+- feat: finish project page by [@ianriizky](https://github.com/ianriizky) in [#a9c4c91](https://github.com/ianriizky/ianriizky.github.io/commit/a9c4c91483be033f7c4581c3ee56579d7f4149bc).
 
 ## [0.1.5](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.1.5) - 2024-09-17
 
