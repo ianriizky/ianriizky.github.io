@@ -14,6 +14,7 @@ const navLinks: Array<NavLink> = [
     icon: <FaArrowUpRightFromSquare className="h-5" />,
     target: "_blank",
   },
+  { href: "/project", title: "Project" },
   { href: "/resume", title: "Resume" },
   { href: "/about", title: "About" },
 ];
