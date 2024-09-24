@@ -5,6 +5,7 @@ import ProjectCard from "@/components/ui/ProjectCard";
 import projects from "@/data/projects";
 import { motion } from "framer-motion";
 import { useTheme } from "next-themes";
+import Link from "next/link";
 import { RoughNotation } from "react-rough-notation";
 import colors from "tailwindcss/colors";
 
@@ -55,6 +56,16 @@ export default function Project({ max }: Readonly<{ max?: number }>) {
             </AnimationHover>
           ))}
         </motion.div>
+      </div>
+
+      <div className="flex justify-end text-base font-medium leading-6 md:mt-5">
+        <Link
+          href="/project"
+          className="mt-5 hover:text-emerald-500 hover:dark:text-gray-300"
+          aria-label="all projects"
+        >
+          All Projects &rarr;
+        </Link>
       </div>
     </>
   );
