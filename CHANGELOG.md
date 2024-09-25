@@ -2,7 +2,11 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.0.0...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.0.1...develop)
+
+## [1.0.1](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.0.1) - 2024-09-25
+
+- fix: wrong tools list of bcadenpasar-chatbot project by [@ianriizky](https://github.com/ianriizky) in [#9f40923](https://github.com/ianriizky/ianriizky.github.io/commit/9f4092374d3dfd6b76f4c92de8704ce5d9ffd595).
 
 ## [1.0.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.0.0) - 2024-09-25
 
