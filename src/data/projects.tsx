@@ -96,7 +96,7 @@ const projects: Array<Project> = [
     href: {
       github: "https://github.com/ianriizky/bcadenpasar-chatbot",
     },
-    tools: ["Node.js", "React", "Next.js", "Tailwind CSS", "Mantine", "Vercel"],
+    tools: ["PHP", "Laravel", "Telegram Bot API", "MySQL"],
   },
   {
     title: "Bayarindong Payment Gateway",
