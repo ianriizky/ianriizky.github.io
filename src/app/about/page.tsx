@@ -1,9 +1,9 @@
-import Me from "@/app/me.jpg";
 import site from "@/data/site";
 import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import { SiDevdotto, SiGithub } from "react-icons/si";
 import { TbMailFilled } from "react-icons/tb";
+import Me from "./me.jpg";
 
 export default function Page() {
   return (
