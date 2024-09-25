@@ -30,40 +30,46 @@ export default function ProjectCard(
           {props.description}
         </p>
 
-        <div className="flex flex-wrap items-center gap-1">
-          {props.tools.map((tool) => (
-            <span
-              key={tool}
-              className="rounded-lg bg-emerald-600 px-2 py-1 text-xs text-white dark:bg-gray-900 dark:text-neutral-400"
-            >
-              {tool}
-            </span>
-          ))}
-        </div>
+        {props.tools && props.tools.length > 0 && (
+          <div className="flex flex-wrap items-center gap-1">
+            {props.tools.map((tool) => (
+              <span
+                key={tool}
+                className="rounded-lg bg-emerald-600 px-2 py-1 text-xs text-white dark:bg-gray-900 dark:text-neutral-400"
+              >
+                {tool}
+              </span>
+            ))}
+          </div>
+        )}
 
-        <div className="flex items-center gap-4 py-2">
-          <Link
-            href={props.href.github}
-            title="Source Code on GitHub"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-emerald-600 dark:text-gray-500 hover:dark:text-white"
-          >
-            <SiGithub className="h-6 w-6 transition-all hover:scale-110 active:scale-90" />
-          </Link>
+        {props.href && (
+          <div className="flex items-center gap-4 py-2">
+            {props.href.github && (
+              <Link
+                href={props.href.github}
+                title="Source Code on GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-emerald-600 dark:text-gray-500 hover:dark:text-white"
+              >
+                <SiGithub className="h-6 w-6 transition-all hover:scale-110 active:scale-90" />
+              </Link>
+            )}
 
-          {props.href.deploy && (
-            <Link
-              href={props.href.deploy}
-              title="Live Preview"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-emerald-600 dark:text-gray-500 hover:dark:text-white"
-            >
-              <TbExternalLink className="h-6 w-6 transition-all hover:scale-110 active:scale-90" />
-            </Link>
-          )}
-        </div>
+            {props.href.deploy && (
+              <Link
+                href={props.href.deploy}
+                title="Live Preview"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-emerald-600 dark:text-gray-500 hover:dark:text-white"
+              >
+                <TbExternalLink className="h-6 w-6 transition-all hover:scale-110 active:scale-90" />
+              </Link>
+            )}
+          </div>
+        )}
       </div>
     </>
   );
