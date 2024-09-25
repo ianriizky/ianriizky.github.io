@@ -51,7 +51,7 @@ export default function Project({ max }: Readonly<{ max?: number }>) {
               <ProjectCard
                 {...project}
                 resolvedTheme={resolvedTheme}
-                imageClassName="relative -mt-[35%] w-full shrink-0 overflow-hidden rounded-xl shadow-2xl before:absolute before:inset-0 before:z-10 before:bg-black/20 sm:-mt-0 sm:w-1/2 md:-ml-[35%] md:w-8/12"
+                imageClassName="relative -mt-[35%] w-full shrink-0 overflow-hidden rounded-xl shadow-2xl before:absolute before:inset-0 before:bg-black/20 sm:-mt-0 sm:w-1/2 md:-ml-[35%] md:w-8/12"
               />
             </AnimationHover>
           ))}

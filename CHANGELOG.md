@@ -2,7 +2,13 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/0.3.0...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.0.0...develop)
+
+## [1.0.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.0.0) - 2024-09-25
+
+- fix: remove z-index setting on project card image by [@ianriizky](https://github.com/ianriizky) in [#de1e889](https://github.com/ianriizky/ianriizky.github.io/commit/de1e889a50434dd51027fc3d0b4e9dbdd3810861).
+- refactor: move profile picture image on about page by [@ianriizky](https://github.com/ianriizky) in [#14a1341](https://github.com/ianriizky/ianriizky.github.io/commit/14a1341fd0649eda657c4b091bd5ccefd5a39caf).
+- feat: update project list data by [@ianriizky](https://github.com/ianriizky) in [#c3fe228](https://github.com/ianriizky/ianriizky.github.io/commit/c3fe2283fa4a2e05eaf28d7322273dbc9e171300).
 
 ## [0.3.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/0.3.0) - 2024-09-24
 
