@@ -1,5 +1,5 @@
 const site = {
-  title: "ianriizky - Backend Developer",
+  title: "ianriizky - Full-stack Developer",
   description: "Portofolio page of ianriizky using Next.js.",
   applicationName: "ianriizky",
   headerTitle: "ianriizky",
@@ -7,10 +7,10 @@ const site = {
     name: "Septianata Rizky Pratama",
     nickname: "Ian",
     url: "https://ianriizky.github.io",
-    role: "Backend Developer",
-    role_rough_notation: ["backend", "developer"],
+    role: "Full-stack Developer",
+    role_rough_notation: ["full-stack", "developer"],
     about:
-      "I am a backend developer with over 5 years of experience, proficient in Java, PHP, and JavaScript. " +
+      "I am a full-stack developer with over 5 years of experience, proficient in Java, PHP, and JavaScript. " +
       "Expert in developing web applications and REST APIs using Laravel, Express.js, and Next.js. " +
       "Really excited to learn new things and enjoy collaborating and working together as a team.",
   },
