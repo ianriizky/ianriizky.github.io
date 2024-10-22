@@ -2,7 +2,17 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.0.1...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.1.0...develop)
+
+## [1.1.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.1.0) - 2024-10-22
+
+- feat: change role from backend developer to full-stack developer by [@ianriizky](https://github.com/ianriizky) in [#4ac1151](https://github.com/ianriizky/ianriizky.github.io/commit/4ac11514bcaa954ae678550972de5a2a4a55297b).
+- feat: update resume pdf by [@ianriizky](https://github.com/ianriizky) in [#e271e1c](https://github.com/ianriizky/ianriizky.github.io/commit/e271e1c1bd69a1b14b49746f17985face1154463).
+- feat: add new project Artopologi Blog by [@ianriizky](https://github.com/ianriizky) in [#f9ac785](https://github.com/ianriizky/ianriizky.github.io/commit/f9ac785a7385483995ea0d8d724930e7fbe90df7).
+- ui: use different text color when nav link is active by [@ianriizky](https://github.com/ianriizky) in [#2f6172d](https://github.com/ianriizky/ianriizky.github.io/commit/2f6172dfeb28e8937fb37128d99d4418a22ca3fa).
+- feat: add link attribute at tools property on project data by [@ianriizky](https://github.com/ianriizky) in [#5421b75](https://github.com/ianriizky/ianriizky.github.io/commit/5421b756121b1f830c3423d7599b421329394628).
+- chore: add new tools on Artopologi Blog project by [@ianriizky](https://github.com/ianriizky) in [#9738e00](https://github.com/ianriizky/ianriizky.github.io/commit/9738e00f3ae331b909ce1cb54748202d910832bd).
+- feat: add new certificate page by [@ianriizky](https://github.com/ianriizky) in [#98c0cd8](https://github.com/ianriizky/ianriizky.github.io/commit/98c0cd89eb609d207141617f0985f1e7b6278e1e).
 
 ## [1.0.1](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.0.1) - 2024-09-25
 
