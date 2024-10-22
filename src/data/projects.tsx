@@ -16,7 +16,10 @@ export type Project = {
     github?: Parameters<typeof Link>[0]["href"];
     deploy?: Parameters<typeof Link>[0]["href"];
   };
-  tools?: Array<string>;
+  tools?: Array<{
+    url: string;
+    text: string;
+  }>;
 };
 
 const projects: Array<Project> = [
@@ -34,7 +37,13 @@ const projects: Array<Project> = [
     href: {
       deploy: "https://nossa.co.id",
     },
-    tools: ["PHP", "Laravel", "Vue.js", "Tailwind CSS", "MySQL"],
+    tools: [
+      { url: "https://php.net", text: "PHP" },
+      { url: "https://laravel.com", text: "Laravel" },
+      { url: "https://vuejs.org", text: "Vue.js" },
+      { url: "https://tailwindcss.com", text: "Tailwind CSS" },
+      { url: "https://www.mysql.com", text: "MySQL" },
+    ],
   },
   {
     title: "Artopologi",
@@ -51,7 +60,14 @@ const projects: Array<Project> = [
     href: {
       deploy: "https://www.artopologi.com",
     },
-    tools: ["Node.js", "React", "Next.js", "Express", "Material UI", "MySQL"],
+    tools: [
+      { url: "https://nodejs.org", text: "Node.js" },
+      { url: "https://react.dev", text: "React" },
+      { url: "https://nextjs.org", text: "Next.js" },
+      { url: "https://expressjs.com", text: "Express" },
+      { url: "https://mui.com", text: "Material UI" },
+      { url: "https://www.mysql.com", text: "MySQL" },
+    ],
   },
   {
     title: "Artopologi Blog",
@@ -68,7 +84,11 @@ const projects: Array<Project> = [
     href: {
       deploy: "https://www.artopologi.com/blog",
     },
-    tools: ["PHP", "Bedrock", "MySQL"],
+    tools: [
+      { url: "https://php.net", text: "PHP" },
+      { url: "https://roots.io/bedrock", text: "Bedrock" },
+      { url: "https://www.mysql.com", text: "MySQL" },
+    ],
   },
   {
     title: "Portofolio Page",
@@ -93,12 +113,15 @@ const projects: Array<Project> = [
       deploy: "https://ianriizky.github.io",
     },
     tools: [
-      "Node.js",
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-      "Framer Motion",
-      "GitHub Pages",
+      { url: "https://nodejs.org", text: "Node.js" },
+      { url: "https://react.dev", text: "React" },
+      { url: "https://nextjs.org", text: "Next.js" },
+      { url: "https://expressjs.com", text: "Express" },
+      { url: "https://mui.com", text: "Material UI" },
+      { url: "https://www.mysql.com", text: "MySQL" },
+      { url: "https://tailwindcss.com", text: "Tailwind CSS" },
+      { url: "https://www.framer.com/motion", text: "Framer Motion" },
+      { url: "https://pages.github.com", text: "GitHub Pages" },
     ],
   },
   {
@@ -114,7 +137,12 @@ const projects: Array<Project> = [
     href: {
       github: "https://github.com/ianriizky/bcadenpasar-chatbot",
     },
-    tools: ["PHP", "Laravel", "Telegram Bot API", "MySQL"],
+    tools: [
+      { url: "https://php.net", text: "PHP" },
+      { url: "https://laravel.com", text: "Laravel" },
+      { url: "https://core.telegram.org/bots/api", text: "Telegram Bot API" },
+      { url: "https://www.mysql.com", text: "MySQL" },
+    ],
   },
   {
     title: "Bayarindong Payment Gateway",
@@ -129,7 +157,14 @@ const projects: Array<Project> = [
       github: "https://github.com/ianriizky/bayarindong",
       deploy: "https://bayarindong.vercel.app",
     },
-    tools: ["Node.js", "React", "Next.js", "Tailwind CSS", "Mantine", "Vercel"],
+    tools: [
+      { url: "https://nodejs.org", text: "Node.js" },
+      { url: "https://react.dev", text: "React" },
+      { url: "https://nextjs.org", text: "Next.js" },
+      { url: "https://tailwindcss.com", text: "Tailwind CSS" },
+      { url: "https://mantine.dev", text: "Mantine" },
+      { url: "https://vercel.com", text: "Vercel" },
+    ],
   },
   {
     title: "node-check-version",
@@ -144,7 +179,10 @@ const projects: Array<Project> = [
     href: {
       github: "https://github.com/ianriizky/node-check-version",
     },
-    tools: ["Node.js", "npm"],
+    tools: [
+      { url: "https://nodejs.org", text: "Node.js" },
+      { url: "https://www.npmjs.com", text: "npm" },
+    ],
   },
 ];
 
