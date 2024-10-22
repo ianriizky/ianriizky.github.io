@@ -1,3 +1,4 @@
+import ArtopologiBlog from "@/app/project/artopologi-blog.png";
 import Artopologi from "@/app/project/artopologi.png";
 import BayarinDong from "@/app/project/bayarindong.jpeg";
 import BCADenpasarChatbot from "@/app/project/bcadenpasar-chatbot.jpg";
@@ -51,6 +52,23 @@ const projects: Array<Project> = [
       deploy: "https://www.artopologi.com",
     },
     tools: ["Node.js", "React", "Next.js", "Express", "Material UI", "MySQL"],
+  },
+  {
+    title: "Artopologi Blog",
+    description: (
+      <>
+        Artopologi is a marketplace for art lovers who want to find and get
+        various types of works based on your desires and needs. All artworks
+        sold on Artopologi are original works by an artist with a digital
+        certificate of authenticity built on blockchain-based NFT. This website
+        is built using Next.js with Express as the backend.
+      </>
+    ),
+    imgSrc: ArtopologiBlog,
+    href: {
+      deploy: "https://www.artopologi.com/blog",
+    },
+    tools: ["PHP", "Bedrock", "MySQL"],
   },
   {
     title: "Portofolio Page",
