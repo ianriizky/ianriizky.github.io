@@ -15,6 +15,7 @@ const navLinks: Array<NavLink> = [
     target: "_blank",
   },
   { href: "/project", title: "Project" },
+  { href: "/certificate", title: "Certificate" },
   { href: "/resume", title: "Resume" },
   { href: "/about", title: "About" },
 ];

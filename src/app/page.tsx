@@ -1,3 +1,4 @@
+import Certificate from "@/components/Certificate";
 import Hero from "@/components/Hero";
 import Project from "@/components/Project";
 import Skill from "@/components/Skill";
@@ -15,6 +16,10 @@ export default function Page() {
 
       <div className="pb-8 pt-6">
         <Project max={4} />
+      </div>
+
+      <div className="pb-8 pt-6">
+        <Certificate max={4} />
       </div>
     </div>
   );
