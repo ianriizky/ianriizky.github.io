@@ -33,12 +33,14 @@ export default function ProjectCard(
         {props.tools && props.tools.length > 0 && (
           <div className="flex flex-wrap items-center gap-1">
             {props.tools.map((tool) => (
-              <span
-                key={tool}
+              <Link
+                key={tool.text}
+                href={tool.url}
+                target="_blank"
                 className="rounded-lg bg-emerald-600 px-2 py-1 text-xs text-white dark:bg-gray-900 dark:text-neutral-400"
               >
-                {tool}
-              </span>
+                {tool.text}
+              </Link>
             ))}
           </div>
         )}
