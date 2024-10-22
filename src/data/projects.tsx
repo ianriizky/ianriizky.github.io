@@ -86,6 +86,7 @@ const projects: Array<Project> = [
     },
     tools: [
       { url: "https://php.net", text: "PHP" },
+      { url: "https://wordpress.org", text: "WordPress" },
       { url: "https://roots.io/bedrock", text: "Bedrock" },
       { url: "https://www.mysql.com", text: "MySQL" },
     ],
