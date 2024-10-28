@@ -2,7 +2,12 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.1.3...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.1.4...develop)
+
+## [1.1.4](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.1.4) - 2024-10-29
+
+- fix: set correct list route on sitemap by [@ianriizky](https://github.com/ianriizky) in [#47b196a](https://github.com/ianriizky/ianriizky.github.io/commit/47b196ac1be81e6fa4bfc115f811c0d7c9769bec).
+- docs: add version of tech stack and requirement on readme by [@ianriizky](https://github.com/ianriizky) in [#9049022](https://github.com/ianriizky/ianriizky.github.io/commit/904902293d3b687901403418d7625712e234f89f).
 
 ## [1.1.3](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.1.3) - 2024-10-28
 
