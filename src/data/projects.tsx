@@ -73,11 +73,11 @@ const projects: Array<Project> = [
     title: "Artopologi Blog",
     description: (
       <>
-        Artopologi is a marketplace for art lovers who want to find and get
-        various types of works based on your desires and needs. All artworks
-        sold on Artopologi are original works by an artist with a digital
-        certificate of authenticity built on blockchain-based NFT. This website
-        is built using Next.js with Express as the backend.
+        This is a blog platform owned by Artopologi featuring articles and
+        resources related to the world of art and creative industries. It
+        provides insights, inspiration, and updates on various topics within the
+        arts, including modern art trends, techniques, and stories from artists
+        and creatives, catering to both art enthusiasts and professionals.
       </>
     ),
     imgSrc: ArtopologiBlog,
