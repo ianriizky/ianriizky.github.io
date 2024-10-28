@@ -2,7 +2,11 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.1.1...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.1.2...develop)
+
+## [1.1.2](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.1.2) - 2024-10-28
+
+- fix: disable google analytics component on base layout when google analytics id is not exists by [@ianriizky](https://github.com/ianriizky) in [#e928508](https://github.com/ianriizky/ianriizky.github.io/commit/e9285087f747e1f4270ecb2cf9fa87c04f2204d4).
 
 ## [1.1.1](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.1.1) - 2024-10-28
 
