@@ -2,7 +2,11 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.1.2...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.1.3...develop)
+
+## [1.1.3](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.1.3) - 2024-10-28
+
+- chore: add certificates route on sitemap by [@ianriizky](https://github.com/ianriizky) in [#d85f318](https://github.com/ianriizky/ianriizky.github.io/commit/d85f3186981ab9415ccacb4fa9e773c334823dfc).
 
 ## [1.1.2](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.1.2) - 2024-10-28
 
