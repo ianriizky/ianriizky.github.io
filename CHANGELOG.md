@@ -2,7 +2,11 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.1.0...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.1.1...develop)
+
+## [1.1.1](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.1.1) - 2024-10-28
+
+- fix: wrong description project of Artopologi Blog by [@ianriizky](https://github.com/ianriizky) in [#f2260fe](https://github.com/ianriizky/ianriizky.github.io/commit/f2260feed81ab85f46d567b20caa9dd0539d4924).
 
 ## [1.1.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.1.0) - 2024-10-22
 
