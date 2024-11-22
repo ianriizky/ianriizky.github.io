@@ -2,7 +2,11 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.1.4...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.1.5...develop)
+
+## [1.1.5](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.1.5) - 2024-11-22
+
+- feat: update resume pdf by [@ianriizky](https://github.com/ianriizky) in [#f61fb35](https://github.com/ianriizky/ianriizky.github.io/commit/f61fb35ec9b10c019efba45d0636d21a3728eecf).
 
 ## [1.1.4](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.1.4) - 2024-10-29
 
