@@ -2,7 +2,13 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.2.0...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.2.1...develop)
+
+## [1.2.1](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.2.1) - 2025-06-19
+
+- docs: update tailwindcss badge on readme by [@ianriizky](https://github.com/ianriizky) in [#846088e](https://github.com/ianriizky/ianriizky.github.io/commit/846088efbc6cd00f0e99c124fa54d27008c00a6f).
+- fix: rename resume page private component file due to build error by [@ianriizky](https://github.com/ianriizky) in [#943d976](https://github.com/ianriizky/ianriizky.github.io/commit/943d9764bc615a507754397b27bdd7b2fde9ffa0).
+- ui: add active style of language button on resume page by [@ianriizky](https://github.com/ianriizky) in [#5c107b4](https://github.com/ianriizky/ianriizky.github.io/commit/5c107b4db9d0011b254dc641f28451ffb50d759f).
 
 ## [1.2.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.2.0) - 2025-06-19
 

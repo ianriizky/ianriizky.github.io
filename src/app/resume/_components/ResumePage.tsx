@@ -2,19 +2,30 @@
 
 import Resume from "@/components/Resume";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { TbDownload, TbEye } from "react-icons/tb";
 
 export default function ResumePage({ file }: { file: string }) {
+  const pathname = usePathname();
+
   return (
     <div className="relative whitespace-nowrap">
       <div className="flex w-full flex-row justify-end">
-        <button className="focus:ring-ring text-primary ml-0 inline-flex max-w-full items-center rounded-tl-2xl border-l border-t border-primary-500 bg-transparent px-2.5 py-0.5 text-xs font-semibold backdrop-blur-md transition-colors duration-150 hover:bg-primary-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 sm:ml-0 sm:text-sm md:ml-0 md:text-base">
+        <button
+          className={`focus:ring-ring text-primary ml-0 inline-flex max-w-full items-center rounded-tl-2xl border-l border-t border-primary-500 bg-transparent px-2.5 py-0.5 text-xs font-semibold backdrop-blur-md transition-colors duration-150 hover:bg-primary-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 sm:ml-0 sm:text-sm md:ml-0 md:text-base ${
+            pathname === "/resume" && "!bg-emerald-500 !text-white"
+          }`}
+        >
           <Link href="/resume">
             🇺🇸<span className="hidden md:inline"> English</span>
           </Link>
         </button>
 
-        <button className="focus:ring-ring text-primary ml-0 inline-flex max-w-full items-center border-l border-t border-primary-500 bg-transparent px-2.5 py-0.5 text-xs font-semibold backdrop-blur-md transition-colors duration-150 hover:bg-primary-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 sm:ml-0 sm:text-sm md:ml-0 md:text-base">
+        <button
+          className={`focus:ring-ring text-primary ml-0 inline-flex max-w-full items-center border-l border-t border-primary-500 bg-transparent px-2.5 py-0.5 text-xs font-semibold backdrop-blur-md transition-colors duration-150 hover:bg-primary-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 sm:ml-0 sm:text-sm md:ml-0 md:text-base ${
+            pathname === "/resume/id" && "!bg-emerald-500 !text-white"
+          }`}
+        >
           <Link href="/resume/id">
             🇮🇩<span className="hidden md:inline"> Bahasa Indonesia</span>
           </Link>
