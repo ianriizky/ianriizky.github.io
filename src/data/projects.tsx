@@ -2,6 +2,8 @@ import ArtopologiBlog from "@/app/project/artopologi-blog.png";
 import Artopologi from "@/app/project/artopologi.png";
 import BayarinDong from "@/app/project/bayarindong.jpeg";
 import BCADenpasarChatbot from "@/app/project/bcadenpasar-chatbot.jpg";
+import BlogPro from "@/app/project/blogpro.png";
+import NgodingBangBlog from "@/app/project/ngodingbang.png";
 import NodeCheckVersion from "@/app/project/node-check-version.jpg";
 import Nossa from "@/app/project/nossa.png";
 import PersonalWebsite from "@/app/project/personal-website.png";
@@ -24,36 +26,36 @@ export type Project = {
 
 const projects: Array<Project> = [
   {
-    title: "Nossa",
+    title: "BlogPro | Turn Notion into Blog in Seconds",
     description: (
       <>
-        Nossa is the largest gaming & e-sports community in Indonesia based on
-        membership & rewards with the aim of providing various benefits for its
-        loyal members. This website is built using Laravel 10 on the backend and
-        Vue.js 3 on the frontend.
+        The goal was to turn Notion into a fully-functional, SEO-optimized
+        blogging platform with zero setup. I built a SaaS solution using Next.js
+        and Supabase that converts Notion content into live blog pages in
+        seconds. This solution enabled creators to launch personal blogs
+        effortlessly, saving both cost and time.
       </>
     ),
-    imgSrc: Nossa,
+    imgSrc: BlogPro,
     href: {
-      deploy: "https://nossa.co.id",
+      deploy: "https://blogpro.so",
     },
     tools: [
-      { url: "https://php.net", text: "PHP" },
-      { url: "https://laravel.com", text: "Laravel" },
-      { url: "https://vuejs.org", text: "Vue.js" },
+      { url: "https://typescriptlang.org", text: "TypeScript" },
+      { url: "https://nextjs.org", text: "Next.js" },
       { url: "https://tailwindcss.com", text: "Tailwind CSS" },
-      { url: "https://www.mysql.com", text: "MySQL" },
+      { url: "https://www.supabase.com", text: "Supabase" },
     ],
   },
   {
-    title: "Artopologi",
+    title: "Artopologi | Connecting Artists to the Public",
     description: (
       <>
-        Artopologi is a marketplace for art lovers who want to find and get
-        various types of works based on your desires and needs. All artworks
-        sold on Artopologi are original works by an artist with a digital
-        certificate of authenticity built on blockchain-based NFT. This website
-        is built using Next.js with Express as the backend.
+        This project aimed to connect artists and art lovers through a
+        tech-driven platform. I built both the frontend and backend, including
+        gallery browsing, user registration, and admin tools. The platform now
+        supports national art initiatives and artist catalog page with modern
+        and intuitive UX.
       </>
     ),
     imgSrc: Artopologi,
@@ -61,11 +63,35 @@ const projects: Array<Project> = [
       deploy: "https://www.artopologi.com",
     },
     tools: [
-      { url: "https://nodejs.org", text: "Node.js" },
-      { url: "https://react.dev", text: "React" },
+      {
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        text: "JavaScript",
+      },
       { url: "https://nextjs.org", text: "Next.js" },
       { url: "https://expressjs.com", text: "Express" },
       { url: "https://mui.com", text: "Material UI" },
+      { url: "https://www.mysql.com", text: "MySQL" },
+    ],
+  },
+  {
+    title: "Nossa | Largest Gaming & E-sports Community in Indonesia",
+    description: (
+      <>
+        The client needed a scalable membership platform for Indonesia’s largest
+        gaming and e-sports community. I developed the fullstack system using
+        Laravel and Vue.js, including user levels, wallet, and reward tracking.
+        The site now serves thousands of users with fast performance and smooth
+        content management.
+      </>
+    ),
+    imgSrc: Nossa,
+    href: {
+      deploy: "https://nossa.co.id",
+    },
+    tools: [
+      { url: "https://laravel.com", text: "Laravel" },
+      { url: "https://vuejs.org", text: "Vue.js" },
+      { url: "https://tailwindcss.com", text: "Tailwind CSS" },
       { url: "https://www.mysql.com", text: "MySQL" },
     ],
   },
@@ -85,14 +111,12 @@ const projects: Array<Project> = [
       deploy: "https://www.artopologi.com/blog",
     },
     tools: [
-      { url: "https://php.net", text: "PHP" },
       { url: "https://wordpress.org", text: "WordPress" },
-      { url: "https://roots.io/bedrock", text: "Bedrock" },
       { url: "https://www.mysql.com", text: "MySQL" },
     ],
   },
   {
-    title: "Portofolio Page",
+    title: "ianrizky Portofolio Page",
     description: (
       <>
         This is a repository of my portofolio page of using Next.js for personal
@@ -122,6 +146,30 @@ const projects: Array<Project> = [
       { url: "https://www.mysql.com", text: "MySQL" },
       { url: "https://tailwindcss.com", text: "Tailwind CSS" },
       { url: "https://www.framer.com/motion", text: "Framer Motion" },
+      { url: "https://pages.github.com", text: "GitHub Pages" },
+    ],
+  },
+  {
+    title: "NgodingBang Blog | A Notion-based CMS for Blogging",
+    description: (
+      <>
+        This is my personal blog built by Hugo as static page generator and
+        Notion as it&apos;s CMS. I created my posts manually as a Notion page,
+        then create a TypScript code to convert the data from Notion into a
+        markdown file. Using Hugo, I generated a static page file then deployed
+        it on GitHub Pages. It&apos;s all free cost and extremely simple to use
+        for everyone.
+      </>
+    ),
+    imgSrc: NgodingBangBlog,
+    href: {
+      deploy: "https://www.ngodingbang.com/blog",
+    },
+    tools: [
+      { url: "https://typescriptlang.org", text: "TypeScript" },
+      { url: "https://gohugo.io", text: "Hugo" },
+      { url: "https://www.notion.so", text: "Notion" },
+      { url: "https://tailwindcss.com", text: "Tailwind CSS" },
       { url: "https://pages.github.com", text: "GitHub Pages" },
     ],
   },
