@@ -30,7 +30,9 @@ export default function Hero() {
         .
       </h1>
 
-      <p className="text-lg leading-7 text-gray-500 dark:text-gray-400"></p>
+      <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+        {site.author.homepage_about}
+      </p>
     </>
   );
 }

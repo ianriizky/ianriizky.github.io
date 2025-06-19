@@ -24,7 +24,7 @@ export type Certificate = {
 
 const certificates: Array<Certificate> = [
   {
-    title: "Belajar Dasar Pemrograman JavaScript",
+    title: "Learn the Basics of JavaScript Programming",
     issuedBy: "Dicoding Indonesia",
     issuedAt: {
       start: "Dec 2022",
@@ -47,7 +47,7 @@ const certificates: Array<Certificate> = [
     ],
   },
   {
-    title: "Belajar Back-End Pemula dengan JavaScript",
+    title: "Learn the Basics of JavaScript Programming",
     issuedBy: "Dicoding Indonesia",
     issuedAt: {
       start: "Dec 2022",
@@ -70,7 +70,7 @@ const certificates: Array<Certificate> = [
     ],
   },
   {
-    title: "Memulai Pemrograman Dengan Java",
+    title: "Learn to Program with Java",
     issuedBy: "Dicoding Indonesia",
     issuedAt: {
       start: "Jan 2023",
@@ -110,7 +110,7 @@ const certificates: Array<Certificate> = [
     ],
   },
   {
-    title: "Sertifikat Kelas Belajar JavaScript",
+    title: "Learn JavaScript Programming",
     issuedBy: "CODEPOLITAN",
     issuedAt: {
       start: "Aug 2024",

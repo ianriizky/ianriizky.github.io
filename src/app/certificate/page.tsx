@@ -4,7 +4,7 @@ import CertificateCard from "@/components/ui/CertificateCard";
 import certificates from "@/data/certificates";
 import { useTheme } from "next-themes";
 
-export default function Page() {
+export default function CertificatePage() {
   const { resolvedTheme } = useTheme();
 
   return (

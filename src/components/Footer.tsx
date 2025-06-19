@@ -1,7 +1,7 @@
 import TypeScript from "@/components/icons/TypeScript";
 import site from "@/data/site";
 import Link from "next/link";
-import { SiGithub, SiLinkedin, SiNextdotjs } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -34,41 +34,20 @@ export default function Footer() {
 
         <div className="flex space-x-4 md:place-content-center">
           <Link
-            className="text-sm text-gray-500 transition hover:text-gray-600"
+            href={site.sourceCode}
             target="_blank"
             rel="noopener noreferrer"
-            href={site.social.github}
+            className="text-sm text-gray-500 underline underline-offset-4 dark:text-gray-400"
           >
-            <span className="sr-only">github</span>
-            <SiGithub className="h-6 w-6 fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400" />
-          </Link>
-          <Link
-            className="text-sm text-gray-500 transition hover:text-gray-600"
-            target="_blank"
-            rel="noopener noreferrer"
-            href={site.social.linkedin}
-          >
-            <span className="sr-only">linkedin</span>
-            <SiLinkedin className="h-6 w-6 fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400" />
+            <span>View source</span>
           </Link>
         </div>
 
         <div className="flex space-x-2 text-gray-500 dark:text-gray-400 md:place-self-end">
-          <div className="whitespace-nowrap">{site.author.name}</div>
+          <div className="whitespace-nowrap">{site.author.shortname}</div>
           <div>{` • `}</div>
           <div className="whitespace-nowrap">{`© ${new Date().getFullYear()}`}</div>
         </div>
-      </div>
-
-      <div className="mb-8 flex justify-center text-center text-sm">
-        <Link
-          href={site.sourceCode}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gray-500 underline underline-offset-4 dark:text-gray-400"
-        >
-          <span>View source</span>
-        </Link>
       </div>
     </footer>
   );

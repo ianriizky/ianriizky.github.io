@@ -19,14 +19,14 @@ function Badge(props: {
     <OptionalLink href={skill.url} target="_blank" rel="noopener noreferrer">
       <AnimationHover
         title={skill.name}
-        className={`group flex origin-center transform items-center justify-center gap-4 rounded-lg ${!props.isParent ? "border border-gray-300 dark:border-gray-500" : "border-b border-b-gray-300 dark:border-b-gray-500"} p-4 sm:justify-start md:origin-top`}
+        className={`group flex origin-center transform items-center justify-center gap-4 rounded-lg ${!isParent ? "border border-gray-300 dark:border-gray-500" : "flex-col border-b border-b-gray-300 text-center dark:border-b-gray-500 md:flex-row md:text-left"} p-4 sm:justify-start md:origin-top`}
         resolvedTheme={resolvedTheme}
       >
         <div className="pointer-events-none relative select-none transition group-hover:scale-110 sm:group-hover:scale-100">
           <skill.logo className="h-8 w-8" />
         </div>
         <p
-          className={`pointer-events-none ${isParent && "hidden"} select-none text-sm font-semibold sm:inline-flex md:text-base`}
+          className={`pointer-events-none select-none text-sm font-semibold sm:inline-flex md:text-base`}
         >
           {skill.name}
         </p>
