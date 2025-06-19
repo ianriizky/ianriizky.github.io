@@ -4,7 +4,7 @@ import Link from "next/link";
 import { SiDevdotto, SiGithub, SiLinkedin } from "react-icons/si";
 import Me from "./me.jpg";
 
-export default function Page() {
+export default function AboutPage() {
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700 md:mb-24">
       <div className="space-y-2 pb-8 pt-6 md:space-y-5">
