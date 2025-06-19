@@ -1,4 +1,4 @@
-import ResumePage from "@/app/resume/_components/page";
+import ResumePage from "@/app/resume/_components/ResumePage";
 import site from "@/data/site";
 import { Metadata } from "next";
 
