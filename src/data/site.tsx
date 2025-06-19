@@ -1,5 +1,5 @@
 const site = {
-  title: "ianriizky - Full-stack Developer",
+  title: "ianriizky - Fullstack Developer",
   description: "Portofolio page of ianriizky using Next.js.",
   applicationName: "ianriizky",
   headerTitle: "ianriizky",
@@ -8,10 +8,10 @@ const site = {
     shortname: "ianrizky",
     nickname: "Ian",
     url: "https://ianriizky.github.io",
-    role: "Full-stack Developer",
-    role_rough_notation: ["full-stack", "developer"],
+    role: "Fullstack Developer",
+    role_rough_notation: ["fullstack", "developer"],
     homepage_about:
-      "I'm a fullstack SaaS developer with 7+ years of experience using Next.js, Laravel, and NestJS. I help startups build scalable MVPs, APIs, and dashboards—fast and clean. I write modular, maintainable code and work well independently or with teams. Let's build your first SaaS together! 🚀",
+      "I'm a fullstack SaaS & API developer with 7+ years of experience using Next.js, Laravel, and NestJS. I help startups build scalable MVPs, APIs, and dashboards—fast and clean. I write modular, maintainable code and work well independently or with teams. Let's build your first SaaS together! 🚀",
     about: (
       <>
         <p>
