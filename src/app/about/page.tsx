@@ -1,8 +1,7 @@
 import site from "@/data/site";
 import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
-import { SiDevdotto, SiGithub } from "react-icons/si";
-import { TbMailFilled } from "react-icons/tb";
+import { SiDevdotto, SiGithub, SiLinkedin } from "react-icons/si";
 import Me from "./me.jpg";
 
 export default function Page() {
@@ -38,10 +37,10 @@ export default function Page() {
                 className="text-sm text-gray-500 transition hover:text-gray-600"
                 target="_blank"
                 rel="noopener noreferrer"
-                href={`mailto:${site.social.email}`}
+                href={site.social.linkedin}
               >
-                <span className="sr-only">mail</span>
-                <TbMailFilled className="h-6 w-6 fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400" />
+                <span className="sr-only">linkedin</span>
+                <SiLinkedin className="h-6 w-6 fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400" />
               </Link>
               <Link
                 className="text-sm text-gray-500 transition hover:text-gray-600"
@@ -66,7 +65,7 @@ export default function Page() {
         </div>
 
         <div className="prose max-w-none pb-8 pt-8 dark:prose-invert xl:col-span-2">
-          <p>{site.author.about}</p>
+          {site.author.about}
           <p>
             View my resume here: <Link href="/resume">Resume</Link>.
           </p>
