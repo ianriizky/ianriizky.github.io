@@ -4,7 +4,7 @@ import ProjectCard from "@/components/ui/ProjectCard";
 import projects from "@/data/projects";
 import { useTheme } from "next-themes";
 
-export default function Page() {
+export default function ProjectPage() {
   const { resolvedTheme } = useTheme();
 
   return (

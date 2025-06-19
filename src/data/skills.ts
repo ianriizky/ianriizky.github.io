@@ -1,4 +1,5 @@
 import ElysiaJS from "@/components/icons/ElysiaJS";
+import MaterialUI from "@/components/icons/MaterialUI";
 import { IconType } from "react-icons/lib";
 import * as Si from "react-icons/si";
 import * as Tb from "react-icons/tb";
@@ -15,19 +16,23 @@ export type SkillWithChildren = Skill & {
 
 const skills: Array<SkillWithChildren> = [
   {
-    name: "JavaScript",
-    logo: Si.SiJavascript,
-    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    name: "Web Development",
+    logo: Tb.TbCode,
     children: [
       {
-        name: "TypeScript",
-        logo: Si.SiTypescript,
-        url: "https://www.typescriptlang.org",
+        name: "Next.js",
+        logo: Si.SiNextdotjs,
+        url: "https://nextjs.org",
       },
       {
-        name: "Node.js",
-        logo: Si.SiNodedotjs,
-        url: "https://nodejs.org/en",
+        name: "NestJS",
+        logo: Si.SiNestjs,
+        url: "https://nestjs.com",
+      },
+      {
+        name: "Laravel",
+        logo: Si.SiLaravel,
+        url: "https://laravel.com",
       },
       {
         name: "Express",
@@ -40,9 +45,9 @@ const skills: Array<SkillWithChildren> = [
         url: "https://elysiajs.com",
       },
       {
-        name: "Nextjs",
-        logo: Si.SiNextdotjs,
-        url: "https://nextjs.org",
+        name: "React",
+        logo: Si.SiReact,
+        url: "https://reactjs.org",
       },
       {
         name: "Vue",
@@ -52,24 +57,16 @@ const skills: Array<SkillWithChildren> = [
     ],
   },
   {
-    name: "PHP",
-    logo: Si.SiPhp,
-    url: "https://php.net",
-    children: [
-      {
-        name: "Laravel",
-        logo: Si.SiLaravel,
-        url: "https://laravel.com",
-      },
-    ],
-  },
-
-  {
     name: "Database",
     logo: Tb.TbDatabase,
     children: [
       {
-        name: "mySQL",
+        name: "Supabase",
+        logo: Si.SiSupabase,
+        url: "https://supabase.com",
+      },
+      {
+        name: "MySQL",
         logo: Si.SiMysql,
         url: "https://www.mysql.com",
       },
@@ -82,8 +79,26 @@ const skills: Array<SkillWithChildren> = [
   },
 
   {
+    name: "CSS",
+    logo: Si.SiCss3,
+    url: "https://www.w3schools.com/css",
+    children: [
+      {
+        name: "Tailwind CSS",
+        logo: Si.SiTailwindcss,
+        url: "https://tailwindcss.com",
+      },
+      {
+        name: "Material UI",
+        logo: MaterialUI,
+        url: "https://mui.com",
+      },
+    ],
+  },
+
+  {
     name: "Git",
-    logo: Si.SiGit,
+    logo: Tb.TbBrandGithub,
     url: "https://github.com/about",
   },
 ];
