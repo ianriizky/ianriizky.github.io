@@ -15,11 +15,11 @@ export default function Page() {
       </div>
 
       <div className="pb-8 pt-6">
-        <Project max={4} />
+        <Project max={3} />
       </div>
 
       <div className="pb-8 pt-6">
-        <Certificate max={4} />
+        <Certificate max={2} />
       </div>
     </div>
   );
