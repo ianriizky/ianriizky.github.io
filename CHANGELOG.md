@@ -2,7 +2,19 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.1.6...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.2.0...develop)
+
+## [1.2.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.2.0) - 2025-06-19
+
+- chore: update all certificates, projects, site, and skills data by [@ianriizky](https://github.com/ianriizky) in [#76c7217](https://github.com/ianriizky/ianriizky.github.io/commit/76c7217d90ab3c2d9a800f24e8f5f9c1da63a650).
+- ui: set maximum project and certifcate list on homepage by [@ianriizky](https://github.com/ianriizky) in [#52277a6](https://github.com/ianriizky/ianriizky.github.io/commit/52277a650b7588d30a126d8bc76d60a531a020bf).
+- ui: update about page by [@ianriizky](https://github.com/ianriizky) in [#9bc5cbc](https://github.com/ianriizky/ianriizky.github.io/commit/9bc5cbc2ae43739fe0779150d006c13545853632).
+- ui: update footer, hero, and skill component by [@ianriizky](https://github.com/ianriizky) in [#fb99fc5](https://github.com/ianriizky/ianriizky.github.io/commit/fb99fc5aaeb080e75fa19ecef35888359aad7b88).
+- build: change keyword on package.json by [@ianriizky](https://github.com/ianriizky) in [#360279d](https://github.com/ianriizky/ianriizky.github.io/commit/360279dc7ab00d02d490e9da5d1ea7c471562571).
+- chore: update title and role by [@ianriizky](https://github.com/ianriizky) in [#fd90ad7](https://github.com/ianriizky/ianriizky.github.io/commit/fd90ad74f003e4d9aff91ee9ef2d9141a6b454d0).
+- chore: update resume by [@ianriizky](https://github.com/ianriizky) in [#0e9ee51](https://github.com/ianriizky/ianriizky.github.io/commit/0e9ee5114c532872775c0f449c4331b3101d1ded).
+- refactor: rename default component function name on each app router by [@ianriizky](https://github.com/ianriizky) in [#25ffdb1](https://github.com/ianriizky/ianriizky.github.io/commit/25ffdb1e88188e19c07b9b44932315d6b4520d62).
+- feat: update resume with new indonesian version by [@ianriizky](https://github.com/ianriizky) in [#f5b128c](https://github.com/ianriizky/ianriizky.github.io/commit/f5b128c2d9c26cea2fcc6947d1c845e38af30863).
 
 ## [1.1.6](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.1.6) - 2024-11-22
 
