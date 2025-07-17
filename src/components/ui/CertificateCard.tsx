@@ -46,8 +46,10 @@ export default function CertificateCard(
                 key={skill.text}
                 href={skill.url}
                 target="_blank"
-                className="rounded-lg bg-sky-600 px-2 py-1 text-xs text-white dark:bg-gray-900 dark:text-neutral-400"
+                className="flex items-center gap-1 rounded-lg px-2 py-1 text-xs text-white"
+                style={{ backgroundColor: skill.color }}
               >
+                {skill?.icon}
                 {skill.text}
               </Link>
             ))}
