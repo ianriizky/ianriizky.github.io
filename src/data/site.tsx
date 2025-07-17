@@ -15,20 +15,11 @@ const site = {
     about: (
       <>
         <p>
-          Hi! I&apos;m Septianata, a fullstack web developer with over 7 years
-          of experience building SaaS platforms, scalable APIs, and modern web
+          Hi! I&apos;m Ian, a fullstack web developer with over 7 years of
+          experience building SaaS platforms, scalable APIs, and modern web
           applications. I specialize in combining reliable backend logic with
           fast, SEO-optimized frontends — from idea to production.
         </p>
-
-        <p>🔧 Tech stack I use:</p>
-        <ul>
-          <li>Frontend: Next.js, React, Vue.js, Tailwind CSS</li>
-          <li>Backend: Laravel, NestJS, Express, ElysiaJS, Hono</li>
-          <li>Database: PostgreSQL, MySQL, Supabase</li>
-          <li>DevOps: Docker, GitHub Actions, Vercel, Heroku, Fly.io</li>
-          <li>Other: Notion API, CMS integration, JWT/Auth, REST, GraphQL</li>
-        </ul>
 
         <p>🚀 I help you:</p>
         <ul>
@@ -37,6 +28,15 @@ const site = {
           <li>Create custom dashboards, admin panels & CMS</li>
           <li>Implement auth systems, role-based access, data modeling</li>
           <li>Optimize performance (Core Web Vitals, SSR, CI/CD)</li>
+        </ul>
+
+        <p>🔧 Tech stack I use:</p>
+        <ul>
+          <li>Frontend: Next.js, React, Vue.js, Tailwind CSS</li>
+          <li>Backend: Laravel, NestJS, Express, ElysiaJS, Hono</li>
+          <li>Database: PostgreSQL, MySQL, Supabase</li>
+          <li>DevOps: Docker, GitHub Actions, Vercel, Heroku, Fly.io</li>
+          <li>Other: Notion API, CMS integration, JWT/Auth, REST, GraphQL</li>
         </ul>
 
         <p>
@@ -63,6 +63,8 @@ const site = {
     instagram: "https://www.instagram.com/ianriizky",
     threads: "https://www.threads.net/@ianriizky",
     devto: "https://dev.to/ianriizky",
+    medium: "https://medium.com/@ngodingbang",
+    upwork: "https://www.upwork.com/freelancers/ianrizky",
   },
   sourceCode: "https://github.com/ianriizky/ianriizky.github.io",
   keywords: [
