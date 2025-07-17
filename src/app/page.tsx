@@ -10,12 +10,12 @@ export default function HomePage() {
         <Hero />
       </div>
 
-      <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-        <Skill />
-      </div>
-
       <div className="pb-8 pt-6">
         <Project max={3} />
+      </div>
+
+      <div className="space-y-2 pb-8 pt-6 md:space-y-5">
+        <Skill />
       </div>
 
       <div className="pb-8 pt-6">

@@ -2,7 +2,17 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.2.1...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.3.0...develop)
+
+## [1.3.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.3.0) - 2025-07-17
+
+- ui: change order of skill component on homepage by [@ianriizky](https://github.com/ianriizky) in [#386d6ce](https://github.com/ianriizky/ianriizky.github.io/commit/386d6ce427e816cc891c7b42f72c4ebb74445058).
+- feat: add medium and upwork link on about page by [@ianriizky](https://github.com/ianriizky) in [#bc5fba4](https://github.com/ianriizky/ianriizky.github.io/commit/bc5fba4b4c2745e8db819d74969589426d149ed7).
+- chore: update artopologi project's thumbnail by [@ianriizky](https://github.com/ianriizky) in [#1f5dd46](https://github.com/ianriizky/ianriizky.github.io/commit/1f5dd46daed55dbd4fc70cda20360cd097262aa7).
+- feat: update copy on hero component by [@ianriizky](https://github.com/ianriizky) in [#64ce296](https://github.com/ianriizky/ianriizky.github.io/commit/64ce296817d14e72dc004cafa83cd2483ed9f2ee).
+- feat: update project and certificate data by [@ianriizky](https://github.com/ianriizky) in [#0df9947](https://github.com/ianriizky/ianriizky.github.io/commit/0df994767fb605be4db1b0da91941ae7f5d8832d).
+- ui: add fill color option on MaterialUI icon by [@ianriizky](https://github.com/ianriizky) in [#d615594](https://github.com/ianriizky/ianriizky.github.io/commit/d615594b2211d0ece5019e69f102caacc7c97f7d).
+- chore: update resume by [@ianriizky](https://github.com/ianriizky) in [#6bba027](https://github.com/ianriizky/ianriizky.github.io/commit/6bba027a50afd8bc7c05f2f33fa4905ea0534925).
 
 ## [1.2.1](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.2.1) - 2025-06-19
 

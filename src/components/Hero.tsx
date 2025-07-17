@@ -1,4 +1,5 @@
 import site from "@/data/site";
+import { TbBrandLinkedin, TbBrandUpwork, TbMail } from "react-icons/tb";
 import { RoughNotation } from "react-rough-notation";
 import colors from "tailwindcss/colors";
 
@@ -30,9 +31,37 @@ export default function Hero() {
         .
       </h1>
 
-      <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-        {site.author.homepage_about}
-      </p>
+      <div className="flex flex-col gap-8 text-lg leading-7 text-gray-500 dark:text-gray-400">
+        <p>
+          🚀 Helping startups launch SaaS MVPs faster, scale effortlessly, and
+          deliver seamless user experiences.
+        </p>
+        <p>
+          I build scalable SaaS platforms, robust APIs, and production-ready
+          MVPs using Next.js, Laravel, and Supabase. Clean, efficient, and
+          future-proof code-crafted to grow with your business.
+        </p>
+        <p>
+          Ready to bring your idea to life? Let&apos;s build your scalable SaaS
+          MVP, faster and better!
+        </p>
+        <ul className="flex flex-col gap-2 text-sm md:flex-row md:items-center">
+          <li className="flex items-center gap-1 hover:underline">
+            <TbMail size={25} />
+            <a href="mailto:ian.rizkypratama@gmail.com">hi@ianrizky.web.id</a>
+          </li>
+          <li className="flex items-center gap-1 hover:underline">
+            <TbBrandLinkedin size={25} />
+            <a href="https://www.linkedin.com/in/ianrizky">View My LinkedIn</a>
+          </li>
+          <li className="flex items-center gap-1 hover:underline">
+            <TbBrandUpwork size={25} />
+            <a href="https://www.upwork.com/freelancers/ianrizky">
+              Hire Me on Upwork
+            </a>
+          </li>
+        </ul>
+      </div>
     </>
   );
 }

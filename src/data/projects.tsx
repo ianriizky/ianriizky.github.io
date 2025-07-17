@@ -9,6 +9,29 @@ import Nossa from "@/app/project/nossa.png";
 import PersonalWebsite from "@/app/project/personal-website.png";
 import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
+import { SiExpress, SiHugo } from "react-icons/si";
+import {
+  TbBrandFramerMotion,
+  TbBrandGithub,
+  TbBrandJavascript,
+  TbBrandLaravel,
+  TbBrandMantine,
+  TbBrandMongodb,
+  TbBrandMysql,
+  TbBrandNextjs,
+  TbBrandNodejs,
+  TbBrandNotion,
+  TbBrandNpm,
+  TbBrandPhp,
+  TbBrandReact,
+  TbBrandSupabase,
+  TbBrandTailwind,
+  TbBrandTelegram,
+  TbBrandTypescript,
+  TbBrandVercel,
+  TbBrandVue,
+  TbBrandWordpress,
+} from "react-icons/tb";
 
 export type Project = {
   title: string;
@@ -21,6 +44,8 @@ export type Project = {
   tools?: Array<{
     url: string;
     text: string;
+    icon?: JSX.Element;
+    color: string;
   }>;
 };
 
@@ -29,11 +54,10 @@ const projects: Array<Project> = [
     title: "BlogPro | Turn Notion into Blog in Seconds",
     description: (
       <>
-        The goal was to turn Notion into a fully-functional, SEO-optimized
-        blogging platform with zero setup. I built a SaaS solution using Next.js
-        and Supabase that converts Notion content into live blog pages in
-        seconds. This solution enabled creators to launch personal blogs
-        effortlessly, saving both cost and time.
+        Built a SaaS platform using Next.js and Supabase that converts Notion
+        databases into fully-functional, SEO-optimized blogs in seconds. Helped
+        creators launch blogs effortlessly with zero setup time, saving both
+        cost and time.
       </>
     ),
     imgSrc: BlogPro,
@@ -41,21 +65,52 @@ const projects: Array<Project> = [
       deploy: "https://blogpro.so",
     },
     tools: [
-      { url: "https://typescriptlang.org", text: "TypeScript" },
-      { url: "https://nextjs.org", text: "Next.js" },
-      { url: "https://tailwindcss.com", text: "Tailwind CSS" },
-      { url: "https://www.supabase.com", text: "Supabase" },
+      {
+        url: "https://nextjs.org",
+        text: "Next.js",
+        icon: <TbBrandNextjs />,
+        color: "#000000",
+      },
+      {
+        url: "https://react.dev",
+        text: "React",
+        icon: <TbBrandReact />,
+        color: "#61DAFB",
+      },
+      {
+        url: "https://typescriptlang.org",
+        text: "TypeScript",
+        icon: <TbBrandTypescript />,
+        color: "#3178C6",
+      },
+      {
+        url: "https://www.supabase.com",
+        text: "Supabase",
+        icon: <TbBrandSupabase />,
+        color: "#3ECF8E",
+      },
+      {
+        url: "https://tailwindcss.com",
+        text: "Tailwind CSS",
+        icon: <TbBrandTailwind />,
+        color: "#06B6D4",
+      },
+      {
+        url: "https://notion.so",
+        text: "Notion",
+        icon: <TbBrandNotion />,
+        color: "#000000",
+      },
     ],
   },
   {
-    title: "Artopologi | Connecting Artists to the Public",
+    title: "Artopologi | Connecting Artists to Buyers Nationwide",
     description: (
       <>
-        This project aimed to connect artists and art lovers through a
-        tech-driven platform. I built both the frontend and backend, including
-        gallery browsing, user registration, and admin tools. The platform now
-        supports national art initiatives and artist catalog page with modern
-        and intuitive UX.
+        Developed a fullstack platform for artists and art lovers to showcase,
+        sell, and collaborate. Delivered modern gallery browsing, user
+        registration, and admin tools using Node.js, ExpressJS, and Material
+        UI—empowering national art initiatives with intuitive UX.
       </>
     ),
     imgSrc: Artopologi,
@@ -64,24 +119,56 @@ const projects: Array<Project> = [
     },
     tools: [
       {
+        url: "https://nextjs.org",
+        text: "Next.js",
+        icon: <TbBrandNextjs />,
+        color: "#000000",
+      },
+      {
+        url: "https://react.dev",
+        text: "React",
+        icon: <TbBrandReact />,
+        color: "#61DAFB",
+      },
+      {
         url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         text: "JavaScript",
+        icon: <TbBrandJavascript />,
+        color: "#F7DF1E",
       },
-      { url: "https://nextjs.org", text: "Next.js" },
-      { url: "https://expressjs.com", text: "Express" },
-      { url: "https://mui.com", text: "Material UI" },
-      { url: "https://www.mysql.com", text: "MySQL" },
+      {
+        url: "https://mongodb.com",
+        text: "MongoDB",
+        icon: <TbBrandMongodb />,
+        color: "#4DB33D",
+      },
+      {
+        url: "https://www.mysql.com",
+        text: "MySQL",
+        icon: <TbBrandMysql />,
+        color: "#4479A1",
+      },
+      {
+        url: "https://expressjs.com",
+        text: "Express",
+        icon: <SiExpress />,
+        color: "#000000",
+      },
+      {
+        url: "https://mui.com",
+        text: "Material UI",
+        color: "#007FFF",
+      },
     ],
   },
   {
-    title: "Nossa | Largest Gaming & E-sports Community in Indonesia",
+    title: "Nossa | Gaming SaaS Platform for 100K+ Members",
     description: (
       <>
-        The client needed a scalable membership platform for Indonesia’s largest
-        gaming and e-sports community. I developed the fullstack system using
-        Laravel and Vue.js, including user levels, wallet, and reward tracking.
-        The site now serves thousands of users with fast performance and smooth
-        content management.
+        Engineered a scalable membership platform for Indonesia’s largest gaming
+        & e-sports community. Features include user management, wallets, reward
+        systems, and content management using Laravel, Vue.js, and Tailwind
+        CSS—supporting thousands of users with fast, secure performance.
       </>
     ),
     imgSrc: Nossa,
@@ -89,10 +176,36 @@ const projects: Array<Project> = [
       deploy: "https://nossa.co.id",
     },
     tools: [
-      { url: "https://laravel.com", text: "Laravel" },
-      { url: "https://vuejs.org", text: "Vue.js" },
-      { url: "https://tailwindcss.com", text: "Tailwind CSS" },
-      { url: "https://www.mysql.com", text: "MySQL" },
+      {
+        url: "https://laravel.com",
+        text: "Laravel",
+        icon: <TbBrandLaravel />,
+        color: "#FF2D20",
+      },
+      {
+        url: "https://vuejs.org",
+        text: "Vue.js",
+        icon: <TbBrandVue />,
+        color: "#4FC08D",
+      },
+      {
+        url: "https://tailwindcss.com",
+        text: "Tailwind CSS",
+        icon: <TbBrandTailwind />,
+        color: "#06B6D4",
+      },
+      {
+        url: "https://www.mysql.com",
+        text: "MySQL",
+        icon: <TbBrandMysql />,
+        color: "#4479A1",
+      },
+      {
+        url: "https://php.net",
+        text: "PHP",
+        icon: <TbBrandPhp />,
+        color: "#777BB3",
+      },
     ],
   },
   {
@@ -111,8 +224,24 @@ const projects: Array<Project> = [
       deploy: "https://www.artopologi.com/blog",
     },
     tools: [
-      { url: "https://wordpress.org", text: "WordPress" },
-      { url: "https://www.mysql.com", text: "MySQL" },
+      {
+        url: "https://wordpress.org",
+        text: "WordPress",
+        icon: <TbBrandWordpress />,
+        color: "#21759B",
+      },
+      {
+        url: "https://php.net",
+        text: "PHP",
+        icon: <TbBrandPhp />,
+        color: "#777BB3",
+      },
+      {
+        url: "https://www.mysql.com",
+        text: "MySQL",
+        icon: <TbBrandMysql />,
+        color: "#4479A1",
+      },
     ],
   },
   {
@@ -135,42 +264,99 @@ const projects: Array<Project> = [
     imgSrc: PersonalWebsite,
     href: {
       github: "https://github.com/ianriizky/ianriizky.github.io",
-      deploy: "https://ianriizky.github.io",
+      deploy: "https://ianriizky.web.id",
     },
     tools: [
-      { url: "https://nodejs.org", text: "Node.js" },
-      { url: "https://react.dev", text: "React" },
-      { url: "https://nextjs.org", text: "Next.js" },
-      { url: "https://expressjs.com", text: "Express" },
-      { url: "https://mui.com", text: "Material UI" },
-      { url: "https://www.mysql.com", text: "MySQL" },
-      { url: "https://tailwindcss.com", text: "Tailwind CSS" },
-      { url: "https://www.framer.com/motion", text: "Framer Motion" },
-      { url: "https://pages.github.com", text: "GitHub Pages" },
+      {
+        url: "https://nextjs.org",
+        text: "Next.js",
+        icon: <TbBrandNextjs />,
+        color: "#000000",
+      },
+      {
+        url: "https://react.dev",
+        text: "React",
+        icon: <TbBrandReact />,
+        color: "#61DAFB",
+      },
+      {
+        url: "https://tailwindcss.com",
+        text: "Tailwind CSS",
+        icon: <TbBrandTailwind />,
+        color: "#06B6D4",
+      },
+      {
+        url: "https://www.framer.com/motion",
+        text: "Framer Motion",
+        icon: <TbBrandFramerMotion />,
+        color: "#F24E1E",
+      },
+      {
+        url: "https://pages.github.com",
+        text: "GitHub Pages",
+        icon: <TbBrandGithub />,
+        color: "#000000",
+      },
     ],
   },
   {
-    title: "NgodingBang Blog | A Notion-based CMS for Blogging",
+    title: "NgodingBang Blog | Open Source Notion-based CMS",
     description: (
       <>
-        This is my personal blog built by Hugo as static page generator and
-        Notion as it&apos;s CMS. I created my posts manually as a Notion page,
-        then create a TypScript code to convert the data from Notion into a
-        markdown file. Using Hugo, I generated a static page file then deployed
-        it on GitHub Pages. It&apos;s all free cost and extremely simple to use
-        for everyone.
+        Created a personal CMS that turns Notion content into a markdown-powered
+        static site. Built with Hugo and deployed on GitHub Pages for free,
+        accessible blogging. Contributed as part of open-source community
+        efforts.
       </>
     ),
     imgSrc: NgodingBangBlog,
     href: {
-      deploy: "https://www.ngodingbang.com/blog",
+      github: "https://github.com/ngodingbang/ngodingbang.github.io",
+      deploy: "https://ngodingbang.my.id",
     },
     tools: [
-      { url: "https://typescriptlang.org", text: "TypeScript" },
-      { url: "https://gohugo.io", text: "Hugo" },
-      { url: "https://www.notion.so", text: "Notion" },
-      { url: "https://tailwindcss.com", text: "Tailwind CSS" },
-      { url: "https://pages.github.com", text: "GitHub Pages" },
+      {
+        url: "https://nextjs.org",
+        text: "Next.js",
+        icon: <TbBrandNextjs />,
+        color: "#000000",
+      },
+      {
+        url: "https://react.dev",
+        text: "React",
+        icon: <TbBrandReact />,
+        color: "#61DAFB",
+      },
+      {
+        url: "https://typescriptlang.org",
+        text: "TypeScript",
+        icon: <TbBrandTypescript />,
+        color: "#3178C6",
+      },
+      {
+        url: "https://gohugo.io",
+        text: "Hugo",
+        icon: <SiHugo />,
+        color: "#FF4088",
+      },
+      {
+        url: "https://tailwindcss.com",
+        text: "Tailwind CSS",
+        icon: <TbBrandTailwind />,
+        color: "#06B6D4",
+      },
+      {
+        url: "https://notion.so",
+        text: "Notion",
+        icon: <TbBrandNotion />,
+        color: "#000000",
+      },
+      {
+        url: "https://pages.github.com",
+        text: "GitHub Pages",
+        icon: <TbBrandGithub />,
+        color: "#000000",
+      },
     ],
   },
   {
@@ -187,10 +373,30 @@ const projects: Array<Project> = [
       github: "https://github.com/ianriizky/bcadenpasar-chatbot",
     },
     tools: [
-      { url: "https://php.net", text: "PHP" },
-      { url: "https://laravel.com", text: "Laravel" },
-      { url: "https://core.telegram.org/bots/api", text: "Telegram Bot API" },
-      { url: "https://www.mysql.com", text: "MySQL" },
+      {
+        url: "https://laravel.com",
+        text: "Laravel",
+        icon: <TbBrandLaravel />,
+        color: "#FF2D20",
+      },
+      {
+        url: "https://php.net",
+        text: "PHP",
+        icon: <TbBrandPhp />,
+        color: "#777BB4",
+      },
+      {
+        url: "https://core.telegram.org/bots/api",
+        text: "Telegram Bot API",
+        icon: <TbBrandTelegram />,
+        color: "#0088CC",
+      },
+      {
+        url: "https://www.mysql.com",
+        text: "MySQL",
+        icon: <TbBrandMysql />,
+        color: "#4479A1",
+      },
     ],
   },
   {
@@ -207,12 +413,36 @@ const projects: Array<Project> = [
       deploy: "https://bayarindong.vercel.app",
     },
     tools: [
-      { url: "https://nodejs.org", text: "Node.js" },
-      { url: "https://react.dev", text: "React" },
-      { url: "https://nextjs.org", text: "Next.js" },
-      { url: "https://tailwindcss.com", text: "Tailwind CSS" },
-      { url: "https://mantine.dev", text: "Mantine" },
-      { url: "https://vercel.com", text: "Vercel" },
+      {
+        url: "https://nextjs.org",
+        text: "Next.js",
+        icon: <TbBrandNextjs />,
+        color: "#000000",
+      },
+      {
+        url: "https://react.dev",
+        text: "React",
+        icon: <TbBrandReact />,
+        color: "#61DAFB",
+      },
+      {
+        url: "https://tailwindcss.com",
+        text: "Tailwind CSS",
+        icon: <TbBrandTailwind />,
+        color: "#06B6D4",
+      },
+      {
+        url: "https://mantine.dev",
+        text: "Mantine",
+        icon: <TbBrandMantine />,
+        color: "#0072F5",
+      },
+      {
+        url: "https://vercel.com",
+        text: "Vercel",
+        icon: <TbBrandVercel />,
+        color: "#000000",
+      },
     ],
   },
   {
@@ -227,10 +457,21 @@ const projects: Array<Project> = [
     imgSrc: NodeCheckVersion,
     href: {
       github: "https://github.com/ianriizky/node-check-version",
+      deploy: "https://www.npmjs.com/package/@ianriizky/node-check-version",
     },
     tools: [
-      { url: "https://nodejs.org", text: "Node.js" },
-      { url: "https://www.npmjs.com", text: "npm" },
+      {
+        url: "https://nodejs.org",
+        text: "Node.js",
+        icon: <TbBrandNodejs />,
+        color: "#8CC84B",
+      },
+      {
+        url: "https://www.npmjs.com",
+        text: "npm",
+        icon: <TbBrandNpm />,
+        color: "#CB3837",
+      },
     ],
   },
 ];
