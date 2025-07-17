@@ -10,8 +10,6 @@ const site = {
     url: "https://ianriizky.github.io",
     role: "Fullstack Developer",
     role_rough_notation: ["fullstack", "developer"],
-    homepage_about:
-      "I'm a fullstack SaaS & API developer with 7+ years of experience using Next.js, Laravel, and NestJS. I help startups build scalable MVPs, APIs, and dashboards—fast and clean. I write modular, maintainable code and work well independently or with teams. Let's build your first SaaS together! 🚀",
     about: (
       <>
         <p>
