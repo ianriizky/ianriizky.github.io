@@ -1,7 +1,13 @@
 import site from "@/data/site";
 import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
-import { SiDevdotto, SiGithub, SiLinkedin } from "react-icons/si";
+import {
+  SiDevdotto,
+  SiGithub,
+  SiLinkedin,
+  SiMedium,
+  SiUpwork,
+} from "react-icons/si";
 import Me from "./me.jpg";
 
 export default function AboutPage() {
@@ -37,6 +43,15 @@ export default function AboutPage() {
                 className="text-sm text-gray-500 transition hover:text-gray-600"
                 target="_blank"
                 rel="noopener noreferrer"
+                href={site.social.upwork}
+              >
+                <span className="sr-only">upwork</span>
+                <SiUpwork className="h-6 w-6 fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400" />
+              </Link>
+              <Link
+                className="text-sm text-gray-500 transition hover:text-gray-600"
+                target="_blank"
+                rel="noopener noreferrer"
                 href={site.social.linkedin}
               >
                 <span className="sr-only">linkedin</span>
@@ -46,19 +61,28 @@ export default function AboutPage() {
                 className="text-sm text-gray-500 transition hover:text-gray-600"
                 target="_blank"
                 rel="noopener noreferrer"
-                href={site.social.github}
+                href={site.social.devto}
               >
-                <span className="sr-only">github</span>
-                <SiGithub className="h-6 w-6 fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400" />
+                <span className="sr-only">devto</span>
+                <SiDevdotto className="h-6 w-6 fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400" />
               </Link>
               <Link
                 className="text-sm text-gray-500 transition hover:text-gray-600"
                 target="_blank"
                 rel="noopener noreferrer"
-                href={site.social.devto}
+                href={site.social.medium}
               >
-                <span className="sr-only">devto</span>
-                <SiDevdotto className="h-6 w-6 fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400" />
+                <span className="sr-only">medium</span>
+                <SiMedium className="h-6 w-6 fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400" />
+              </Link>
+              <Link
+                className="text-sm text-gray-500 transition hover:text-gray-600"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={site.social.github}
+              >
+                <span className="sr-only">github</span>
+                <SiGithub className="h-6 w-6 fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400" />
               </Link>
             </div>
           </div>

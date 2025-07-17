@@ -22,9 +22,7 @@ export default function ProjectCard(
       </div>
 
       <div className="flex flex-col justify-start gap-3">
-        <h1 className="font-bold capitalize dark:text-neutral-100">
-          {props.title}
-        </h1>
+        <h1 className="font-bold dark:text-neutral-100">{props.title}</h1>
 
         <p className="truncate-2 text-sm leading-6 dark:text-neutral-300">
           {props.description}
@@ -37,8 +35,10 @@ export default function ProjectCard(
                 key={tool.text}
                 href={tool.url}
                 target="_blank"
-                className="rounded-lg bg-emerald-600 px-2 py-1 text-xs text-white dark:bg-gray-900 dark:text-neutral-400"
+                className="flex items-center gap-1 rounded-lg px-2 py-1 text-xs text-white"
+                style={{ backgroundColor: tool.color }}
               >
+                {tool?.icon}
                 {tool.text}
               </Link>
             ))}
