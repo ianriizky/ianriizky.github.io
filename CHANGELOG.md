@@ -2,7 +2,11 @@
 
 All notable changes to `ianriizky Portofolio` will be documented in this file.
 
-## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.3.0...develop)
+## [Unreleased](https://github.com/ianriizky/ianriizky.github.io/compare/1.3.1...develop)
+
+## [1.3.1](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.3.1) - 2025-07-18
+
+- chore: update resume by [@ianriizky](https://github.com/ianriizky) in [#d035961](https://github.com/ianriizky/ianriizky.github.io/commit/d035961927248f33649eeb7eddd50c0e90255bc2).
 
 ## [1.3.0](https://github.com/ianriizky/ianriizky.github.io/releases/tag/1.3.0) - 2025-07-17
 
