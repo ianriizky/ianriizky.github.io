@@ -1,6 +1,6 @@
 {
   "name": "@ianriizky/portofolio",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "private": true,
   "type": "module",
   "description": "Portofolio page of ianriizky using Next.js.",
